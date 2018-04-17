@@ -1,0 +1,21 @@
+# 29, 30 in Gazdar
+
+NP 	Noun
+NP 	Det Noun
+NP 	NP R
+
+R 	NP[+R+WH+PRO] S/NP
+R 	NP[+R-WH+PRO] S/NP
+R 	PP[WH+PRO] S/PP
+
+PP 	Prep NP
+PP[+WH+PRO]	Prep NP[+WH+PRO]
+
+S/NP 	NP VP/NP
+VP/NP 	V dummy
+
+S/PP 	NP VP/PP
+VP/PP 	V 	VPbar/PP
+VPbar/PP 	to 	VP/PP
+VP/PP 	V 	PP/PP
+PP/PP 	dummy
