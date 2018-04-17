@@ -53,6 +53,7 @@
 
 # additional rules
 1 PP+R+WH+PRO P NP+R+WH+PRO
+1 VP/PP V PP/PP
 
 # Vocab
 1 NP the man
