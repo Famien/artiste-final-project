@@ -66,3 +66,35 @@
 
 
 
+### End of hard code .. starting scripts ###
+
+# adding rule (23)
+
+1	VP/VP t
+1	notVP/notVP t
+1	notS/notS t
+1	PP/PP t
+1	NP/NP t
+
+# adding rule (22) Generalized Left Branch
+
+1 notS/NP notVP/NP
+1 notS/NP NP/NP
+1 notS/NP VP/NP
+1 notS/NP PP/NP
+1 notVP/NP notS/NP
+1 notVP/NP NP/NP
+1 notVP/NP VP/NP
+1 notVP/NP PP/NP
+1 NP/NP notS/NP
+1 NP/NP notVP/NP
+1 NP/NP VP/NP
+1 NP/NP PP/NP
+1 VP/NP notS/NP
+1 VP/NP notVP/NP
+1 VP/NP NP/NP
+1 VP/NP PP/NP
+1 PP/NP notS/NP
+1 PP/NP notVP/NP
+1 PP/NP NP/NP
+1 PP/NP VP/NP

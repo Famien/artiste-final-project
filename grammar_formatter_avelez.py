@@ -26,5 +26,5 @@ def rule_22(g):
 	f.close()
 
 # add rules
-rule_23(grammar)
-rule_24(grammar)
+#rule_23(grammar)
+rule_22(grammar)
