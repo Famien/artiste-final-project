@@ -98,7 +98,8 @@
 1 AP A
 1 NP+WH Det+WH N
 1 VP+FIN V+FIN NP
-1 V were V+Passive PP #passive transform
+1 V were V+Passive #passive transform
+1 VP V PP
 
 
 # Vocab
