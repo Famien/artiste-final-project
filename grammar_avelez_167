@@ -49,6 +49,7 @@
 # rules (27) and (28)
 1 NP+R+WH+PRO who
 1 NP-R+WH+PRO who
+1 NP+WH+PRO who
 1 NP+R-WH+PRO that
 
 # rule (33)
@@ -106,6 +107,11 @@
 1 N man
 1 V+FIN drove
 1 NP the car
+1 VP+FIN chased Fido
+1 VP returned
+1 NP I
+1 V think
+
 
 
 
