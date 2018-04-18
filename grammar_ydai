@@ -1,0 +1,31 @@
+# rule (4)
+1 	S 	S CC S
+1 	NP 		NP CCNP
+1 	CCNP	CC NP
+1 	VP 		VP CCVP
+1 	CCVP 	CC VP
+
+1 	CC 	and
+1 	CC 	or
+
+1 	NP+WH	who
+1	PP+WH 	in
+1	AP+WH 	how
+1	AdvP+WH how
+
+1 	Q/NP 	V NP VP/NP  # Tree 53a 
+1	Q/PP
+1	Q/AP
+1	Q/AdvP
+
+1 	NP	the Dodgers
+1 	NP	the Red Sox
+1 	NP	the Giants
+1 	NP 	different teams
+
+1 	V 	beat 
+1 	VP 	VBD VBN PP
+1 	VBD 	were 	# VBD, verb, past tense took
+1 	VBN 	beaten  # VBN, Verb, past participle
+
+1 	P 	by

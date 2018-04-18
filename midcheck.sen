@@ -1,0 +1,13 @@
+the Dodgers beat the Red Sox and were beaten by the Giants 
+(S (NP the Dodgers) (VP (VP (V beat) (NP the Red Sox)) (CCVP (CC and) (VP (VBD were) (VBN beaten) (PP (P by) (NP the Giants))))))
+
+the Dodgers beat the Red Sox and the Dodgers were beaten by the Giants 
+(S (S (NP the Dodgers) (VP (V beat) (NP the Red Sox))) (CC and) (S (NP the Dodgers) (VP (VBD were) (VBN beaten) (PP (P by) (NP the Giants)))))
+
+the Dodgers beat the Red Sox and the Giants beat the Dodgers 
+(S (S (NP the Dodgers) (VP (V beat) (NP the Red Sox))) (CC and) (S (NP the Giants) (VP (V beat) (NP the Dodgers))))
+
+
+different teams beat the Red Sox and were beaten by the Giants 
+
+John gave the books to Mary and the records to Sue 
