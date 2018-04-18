@@ -1,10 +1,10 @@
 
 # param - name of grammar
-grammar = "grammar_avelez_167"
+grammar = "grammar_avelez"
 
 # constants
-s_categories_phrases = set(["VP","NP","PP","notS","notVP"])
-
+s_categories_phrases = set(["VP","NP","PP","notS","notVP","S"])
+conjb = set(["and","or"])
 
 def open_grammar_append(g):
 	return open(g,"a")
@@ -50,10 +50,22 @@ def rule_76(g):
 			f.write("1 "+a+" "+a+"/"+b+" "+b+"\n")
 	f.close()
 
+def rule_9_10(g):
+	f = open_grammar_append(g)
+	f.write("\n# adding rules (9) and (10) for surface constituent structure\n\n")
+	for a in s_categories_phrases:
+		ac = a+"Conj"
+		# adding (9)
+		f.write("1 "+ac+" Conj "+a+"\n")
+		# adding (10)
+		f.write("1 "+a+" "+a+" "+ac+"\n")
+	f.close()
+
+
 # add rules
 #rule_23(grammar)
 # rule_22(grammar)
 # rule_32(grammar)
 # rule_76(grammar)
-
+rule_9_10(grammar)
 

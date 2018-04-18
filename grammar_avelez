@@ -98,6 +98,7 @@
 1 AP A
 1 NP+WH Det+WH N
 1 VP+FIN V+FIN NP
+1 V were V+Passive PP #passive transform
 
 
 # Vocab
@@ -134,6 +135,14 @@
 1 V killed
 1 NP the rabid dog
 1 VP was here
+1 NP different teams
+1 Conj and
+1 Conj or
+1 V beat
+1 NP the Red Sox
+1 V+Passive beaten
+1 P by
+1 NP the Giants
 
 
 
@@ -194,3 +203,19 @@
 1 S S/S S
 1 S S/NP NP
 1 S S/PP PP
+
+
+# adding rules (9) and (10) for surface constituent structure
+
+1 notSConj Conj notS
+1 notS notS notSConj
+1 SConj Conj S
+1 S S SConj
+1 PPConj Conj PP
+1 PP PP PPConj
+1 NPConj Conj NP
+1 NP NP NPConj
+1 VPConj Conj VP
+1 VP VP VPConj
+1 notVPConj Conj notVP
+1 notVP notVP notVPConj
