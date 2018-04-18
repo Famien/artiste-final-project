@@ -84,12 +84,13 @@
 # rule (50)
 1 VP V NP R
 
-# additional rules
+# additional rules (look to generalize)
 1 PP+R+WH+PRO P NP+R+WH+PRO
 1 VP/PP V PP/PP
 1 AP A
 1 NP+WH Det+WH N
 1 VP+FIN V+FIN NP
+1 NP/R NP R/R
 
 # Vocab
 1 NP the man
