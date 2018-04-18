@@ -89,7 +89,7 @@
 1 S/R NP/R VP
 1 S S/R R
 1 R NP VP
-1 S/NP and S/NP
+1 S/NP S/NP and S/NP
 ########
 
 # additional rules (look to generalize)
