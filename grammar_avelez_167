@@ -1,0 +1,101 @@
+
+# G (16)
+1 S NP VP
+1 VP V notVP
+1 VP V NP
+1 PP P NP
+1 notS that S
+1 VP V notS
+1 notVP to VP
+1 VP V NP PP
+1 NP NP PP
+
+# D(NP, G) (17)
+1 S/NP NP/NP VP
+1 S/NP NP VP/NP
+1 VP/NP V notVP/NP
+1 VP/NP V NP/NP
+1 PP/NP P NP/NP
+1 notS/NP that S/NP
+1 VP/NP V notS/NP
+1 notVP/NP to VP/NP
+1 VP/NP V NP/NP PP
+1 VP/NP V NP PP/NP
+1 NP/NP NP/NP PP
+1 NP/NP NP PP/NP
+
+# D(PP, G) (18)
+1 S/PP NP/PP VP
+1 S/PP NP VP/PP
+1 VP/PP V notVP/PP
+1 VP/PP V NP/PP
+1 PP/PP P NP/PP
+1 notS/PP that S/PP
+1 VP/PP V notS/PP
+1 notVP/PP to VP/PP
+1 VP/PP V NP/PP PP
+1 VP/PP V NP PP/PP
+1 NP/PP NP/PP PP
+1 NP/PP NP PP/PP
+
+# rule (24)
+1 NP NP R
+
+# rules (25) and (26)
+1 R NP+R+WH+PRO S/NP
+1 R NP+R-WH+PRO S/NP
+1 R PP+R+WH+PRO S/PP
+
+# rules (27) and (28)
+1 NP+R+WH+PRO who
+1 NP-R+WH+PRO who
+1 NP+R-WH+PRO that
+
+# additional rules
+1 PP+R+WH+PRO P NP+R+WH+PRO
+1 VP/PP V PP/PP
+
+# Vocab
+1 NP the man
+1 NP Fido
+1 V chased
+1 NP the kennel
+1 P in
+1 NP+R+WH+PRO which
+1 V tends
+1 V sleep
+
+
+
+### End of hard-code .. starting scripts for generalized rules###
+
+# adding rule (23)
+
+1	VP/VP t
+1	notVP/notVP t
+1	notS/notS t
+1	PP/PP t
+1	NP/NP t
+
+# adding rule (22) Generalized Left Branch
+
+1 notS/NP notVP/NP
+1 notS/NP NP/NP
+1 notS/NP VP/NP
+1 notS/NP PP/NP
+1 notVP/NP notS/NP
+1 notVP/NP NP/NP
+1 notVP/NP VP/NP
+1 notVP/NP PP/NP
+1 NP/NP notS/NP
+1 NP/NP notVP/NP
+1 NP/NP VP/NP
+1 NP/NP PP/NP
+1 VP/NP notS/NP
+1 VP/NP notVP/NP
+1 VP/NP NP/NP
+1 VP/NP PP/NP
+1 PP/NP notS/NP
+1 PP/NP notVP/NP
+1 PP/NP NP/NP
+1 PP/NP VP/NP
