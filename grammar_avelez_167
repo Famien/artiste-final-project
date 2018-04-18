@@ -51,9 +51,13 @@
 1 NP-R+WH+PRO who
 1 NP+R-WH+PRO that
 
+# rule (33)
+1 VP+FIN+AUX V+FIN+AUX AP
+
 # additional rules
 1 PP+R+WH+PRO P NP+R+WH+PRO
 1 VP/PP V PP/PP
+1 AP A
 
 # Vocab
 1 NP the man
@@ -64,6 +68,8 @@
 1 NP+R+WH+PRO which
 1 V tends
 1 V sleep
+1 V+FIN+AUX is
+1 A stupid
 
 
 
@@ -99,3 +105,8 @@
 1 PP/NP notVP/NP
 1 PP/NP NP/NP
 1 PP/NP VP/NP
+
+
+# adding rule (32) subject-auxiliary inversion
+
+1 Q V+FIN+AUX NP AP
