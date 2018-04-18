@@ -49,11 +49,56 @@
 # rules (27) and (28)
 1 NP+R+WH+PRO who
 1 NP-R+WH+PRO who
+1 NP+WH+PRO who
 1 NP+R-WH+PRO that
 
-# additional rules
+# rule (33)
+1 VP+FIN+AUX V+FIN+AUX AP
+
+# rule (35)
+1 Q NP+WH Q/NP
+1 Q PP+WH Q/PP
+1 Q AP+WH Q/AP
+1 Q AdvP+WH Q/AdvP
+
+# rule (40)
+1 Q NP+WH Q/NP
+1 notQ NP+WH S/NP
+1 R NP+WH+PRO S/NP
+1 R NP-WH+PRO S/NP
+1 S NP S/NP
+1 VP/NP V notS/NP
+1 VP/NP V NP notS/NP
+1 VP/NP V PP notS/NP
+
+# rule (41)
+1 Q NP+WH VP+FIN
+1 notQ NP+WH VP+FIN
+1 R NP+R+WH+PRO VP+FIN
+1 R NP+R-WH+PRO VP+FIN
+1 S NP VP+FIN
+1 VP/NP V VP+FIN
+1 VP/NP V NP VP+FIN
+1 VP/NP V PP VP+FIN
+
+# rule (50)
+1 VP V NP R
+
+# SOMETHING WENT WRONG ON THESE 3
+1 NP/R NP R/R
+1 S/R NP/R VP
+1 S S/R R
+1 R NP VP
+1 S/NP S/NP and S/NP
+########
+
+# additional rules (look to generalize)
 1 PP+R+WH+PRO P NP+R+WH+PRO
 1 VP/PP V PP/PP
+1 AP A
+1 NP+WH Det+WH N
+1 VP+FIN V+FIN NP
+
 
 # Vocab
 1 NP the man
@@ -64,10 +109,37 @@
 1 NP+R+WH+PRO which
 1 V tends
 1 V sleep
+1 V+FIN+AUX is
+1 A stupid
+1 NP Kim
+1 NP+WH who
+1 V+FIN saw
+1 NP the man
+1 Det+WH which
+1 N man
+1 V+FIN drove
+1 NP the car
+1 VP+FIN chased Fido
+1 VP returned
+1 NP I
+1 V think
+1 NP the woman
+1 V believed
+1 VP was ill
+1 NP who
+1 VP was there
+1 NP Harry
+1 V caught
+1 NP Mary
+1 V killed
+1 NP the rabid dog
+1 VP was here
 
 
 
-### End of hard-code .. starting scripts for generalized rules###
+
+
+### End of hard-code .. starting scripts for meta-rules###
 
 # adding rule (23)
 
@@ -76,6 +148,7 @@
 1	notS/notS t
 1	PP/PP t
 1	NP/NP t
+1	R/R t
 
 # adding rule (22) Generalized Left Branch
 
@@ -99,3 +172,25 @@
 1 PP/NP notVP/NP
 1 PP/NP NP/NP
 1 PP/NP VP/NP
+
+
+# adding rule (32) subject-auxiliary inversion
+
+1 Q V+FIN+AUX NP AP
+
+
+
+# adding rule (76) rightward displacement
+
+1 notS notS/notS notS
+1 notS notS/notVP notVP
+1 notS notS/VP VP
+1 notS notS/S S
+1 notS notS/NP NP
+1 notS notS/PP PP
+1 S S/notS notS
+1 S S/notVP notVP
+1 S S/VP VP
+1 S S/S S
+1 S S/NP NP
+1 S S/PP PP
