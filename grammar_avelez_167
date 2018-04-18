@@ -91,6 +91,7 @@
 1 NP+WH Det+WH N
 1 VP+FIN V+FIN NP
 1 NP/R NP R/R
+1 S/R NP/R VP
 
 # Vocab
 1 NP the man
