@@ -40,11 +40,20 @@ def rule_32(g):
 	f.close()
 	r.close()
 
+def rule_76(g):
+	f = open_grammar_append(g)
+	f.write("\n# adding rule (76) rightward displacement\n\n")
+	clausals = set(["S", "notS"])
+	betas = clausals | s_categories_phrases
+	for a in clausals:
+		for b in betas:
+			f.write("1 "+a+" "+a+"/"+b+" "+b+"\n")
+	f.close()
 
 # add rules
 #rule_23(grammar)
 # rule_22(grammar)
 # rule_32(grammar)
-
+rule_76(grammar)
 
 
