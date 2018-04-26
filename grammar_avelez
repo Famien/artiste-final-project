@@ -72,6 +72,7 @@
 1 Q/NP V NP VP/NP
 
 # rule (44)
+# maybe take this out ?
 1 notS/NP that VP+FIN
 
 # By GLBC, we'll get 'who is it that Mary likes?'
@@ -169,6 +170,14 @@
 1 N it
 1 VP+FIN Mary likes
 1 V is
+1 N John
+1 Adv easy
+
+# to - probably need to improve
+1 Adv to
+1 N+PRO to
+1 P to
+1 Conj to
 
 
 
