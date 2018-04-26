@@ -56,10 +56,25 @@
 1 VP+FIN+AUX V+FIN+AUX AP
 
 # rule (35)
-1 Q NP+WH Q/NP
-1 Q PP+WH Q/PP
-1 Q AP+WH Q/AP
-1 Q AdvP+WH Q/AdvP
+1 Q NP+WH Q/NP ?
+1 Q PP+WH Q/PP ?
+1 Q AP+WH Q/AP ?
+1 Q AdvP+WH Q/AdvP ?
+
+# Question left-branching
+# unsure about these
+#1 Q/AP AP VP/AP
+#1 VP/AP was Mary
+
+#1 Q/AdvP AdvP Q
+
+# straight from a tree
+1 Q/NP V NP VP/NP
+
+# rule (44)
+1 notS/NP that VP+FIN
+
+# By GLBC, we'll get 'who is it that Mary likes?'
 
 # rule (40)
 1 Q NP+WH Q/NP
@@ -100,6 +115,7 @@
 1 VP+FIN V+FIN NP
 1 V were V+Passive #passive transform
 1 VP V PP
+1 NP N
 
 
 # Vocab
@@ -145,7 +161,13 @@
 1 P by
 1 NP the Giants
 1 NP the Dodgers
-
+1 A suspicious
+1 AP+WH how
+1 AdvP+WH how
+1 V likes
+1 N Mary
+1 N it
+1 VP+FIN Mary likes
 
 
 
