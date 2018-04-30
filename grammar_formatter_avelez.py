@@ -61,11 +61,27 @@ def rule_9_10(g):
 		f.write("1 "+a+" "+a+" "+ac+"\n")
 	f.close()
 
+def rule_39(g):
+	f = open_grammar_append(g)
+	r = open_grammar_read(g)
+	f.write("\n# adding rule (39) NP holes\n\n")
+	for line in r.readlines():
+		if "#" not in line:
+			rule = line.split()
+			if len(rule)>=4:
+				for i in range(len(rule[2:])):
+					out = rule[2:][i]
+					if "/NP" in out and any(sentential in out for sentential in ["S","notS","Q","notQ"]):
+						new_rule = " ".join(rule[:2]+rule[2:i+2]+["VP+FIN"]+rule[i+2+1:])+"\n"
+						f.write(new_rule)
+	f.close()
+	r.close()
 
 # add rules
 #rule_23(grammar)
 # rule_22(grammar)
 # rule_32(grammar)
 # rule_76(grammar)
-rule_9_10(grammar)
+# rule_9_10(grammar)
+# rule_39(grammar)
 
