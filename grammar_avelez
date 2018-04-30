@@ -86,6 +86,7 @@
 1 VP/NP V notS/NP
 1 VP/NP V NP notS/NP
 1 VP/NP V PP notS/NP
+1 R NP+R+WH+PRO S/NP
 
 # rule (41)
 1 Q NP+WH VP+FIN
@@ -178,6 +179,7 @@
 1 N Bill
 1 V+FIN liked
 1 V liked
+1 VP/NP saw
 
 # to - probably need to improve
 1 Adv to
@@ -221,6 +223,10 @@
 1 PP/NP notVP/NP
 1 PP/NP NP/NP
 1 PP/NP VP/NP
+1 S/NP notVP/NP
+1 S/NP NP/NP
+1 S/NP VP/NP
+1 S/NP PP/NP
 
 
 # adding rule (32) subject-auxiliary inversion
