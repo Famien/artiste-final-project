@@ -118,6 +118,7 @@
 1 V were V+Passive #passive transform
 1 VP V PP
 1 NP N
+1 VP/NP V
 
 
 # Vocab
@@ -179,7 +180,8 @@
 1 N Bill
 1 V+FIN liked
 1 V liked
-1 VP/NP saw
+#1 VP/NP saw
+1 V saw
 
 # to - probably need to improve
 1 Adv to
