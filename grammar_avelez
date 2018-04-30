@@ -6,7 +6,7 @@
 1 PP P NP
 1 notS that S
 1 VP V notS
-1 notVP to VP
+1 notVP notVPword VP
 1 VP V NP PP
 1 NP NP PP
 
@@ -18,7 +18,7 @@
 1 PP/NP P NP/NP
 1 notS/NP that S/NP
 1 VP/NP V notS/NP
-1 notVP/NP to VP/NP
+1 notVP/NP notVPword VP/NP
 1 VP/NP V NP/NP PP
 1 VP/NP V NP PP/NP
 1 NP/NP NP/NP PP
@@ -32,7 +32,7 @@
 1 PP/PP P NP/PP
 1 notS/PP that S/PP
 1 VP/PP V notS/PP
-1 notVP/PP to VP/PP
+1 notVP/PP notVPword VP/PP
 1 VP/PP V NP/PP PP
 1 VP/PP V NP PP/PP
 1 NP/PP NP/PP PP
@@ -101,12 +101,13 @@
 # rule (50)
 1 VP V NP R
 
-# SOMETHING WENT WRONG ON THESE 3
+# SOMETHING WENT WRONG ON THESE
 1 NP/R NP R/R
 1 S/R NP/R VP
 1 S S/R R
 1 R NP VP
 1 S/NP S/NP and S/NP
+1 VP/NP VP/NP and VP/NP
 ########
 
 # additional rules (look to generalize)
@@ -120,6 +121,9 @@
 1 NP N
 1 VP/NP V
 
+# neatify
+1 notVPword to
+1 notVPword will
 
 # Vocab
 1 NP the man
@@ -180,8 +184,8 @@
 1 N Bill
 1 V+FIN liked
 1 V liked
-#1 VP/NP saw
 1 V saw
+1 V hopes
 
 # to - probably need to improve
 1 Adv to
