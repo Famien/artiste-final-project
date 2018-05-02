@@ -38,6 +38,20 @@
 1 NP/PP NP/PP PP
 1 NP/PP NP PP/PP
 
+# D(VP, G) (added)
+1 S/VP NP/VP VP
+1 S/VP NP VP/VP
+1 VP/VP V notVP/VP
+1 VP/VP V NP/VP
+1 PP/VP P NP/VP
+1 notS/VP that S/VP
+1 VP/VP V notS/VP
+1 notVP/VP notVPword VP/VP
+1 VP/VP V NP/VP PP
+1 VP/VP V NP PP/VP
+1 NP/VP NP/VP PP
+1 NP/VP NP PP/VP
+
 # rule (24)
 1 NP NP R
 
@@ -70,10 +84,6 @@
 
 # straight from a tree
 1 Q/NP V NP VP/NP
-
-# rule (44)
-# maybe take this out ?
-#1 notS/NP that VP+FIN
 
 # rule (40)
 1 Q NP+WH Q/NP ?
@@ -118,6 +128,9 @@
 1 VP V PP
 1 NP N
 1 VP/NP V
+1 AdvP Adv
+1 V AdvP V
+1 V V AdvP
 
 # neatify
 1 notVPword to
@@ -174,7 +187,7 @@
 1 N it
 1 V is
 1 N John
-1 Adv easy
+#1 Adv easy
 1 N I
 1 V know
 1 NP a man
@@ -190,6 +203,7 @@
 1 N many years
 1 V happened
 1 P for
+1 Adv exactly
 
 # to - probably need to improve
 1 Adv to
