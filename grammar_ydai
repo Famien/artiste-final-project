@@ -1,31 +1,20 @@
-# rule (4)
-1 	S 	S CC S
-1 	NP 		NP CCNP
-1 	CCNP	CC NP
-1 	VP 		VP CCVP
-1 	CCVP 	CC VP
+#  Sentences in (58) must follow from (9)
 
-1 	CC 	and
-1 	CC 	or
+# the kennel which Mary made and Fido sleeps in has been stolen 
+# (S (NP (NP the kennel) (R (NP+R+WH+PRO which) (S/NP (S/NP (NP Mary) (VP/NP (V made) (NP/NP t))) and (S/NP (NP Fido) (VP/NP (V sleeps) (notS/NP (PP/NP (P in) (NP/NP t)))))))) (VP has been stolen))
 
-1 	NP+WH	who
-1	PP+WH 	in
-1	AP+WH 	how
-1	AdvP+WH how
+# the kennel in which Mary keeps drugs and Fido sleeps has been stolen 
+# (S (NP (NP (NP the kennel) (R (PP+R+WH+PRO (P in) (NP+R+WH+PRO which)) (S/PP (NP Mary) (VP/PP (V keeps) (NP drugs) (PP/PP t))))) (NPConj (Conj and) (NP Fido))) (S/NP (NP/NP (VP/NP (V sleeps) (NP/NP t))) (VP has been stolen)))
 
-1 	Q/NP 	V NP VP/NP  # Tree 53a 
-1	Q/PP
-1	Q/AP
-1	Q/AdvP
+# *the kennel in which Mary made and Fido sleeps has been stolen
 
-1 	NP	the Dodgers
-1 	NP	the Red Sox
-1 	NP	the Giants
-1 	NP 	different teams
 
-1 	V 	beat 
-1 	VP 	VBD VBN PP
-1 	VBD 	were 	# VBD, verb, past tense took
-1 	VBN 	beaten  # VBN, Verb, past participle
+1 	NP+R-WH+PRO	that   # confirm??
+1 	NP 	the kennel
+1 	NP 	drugs
 
-1 	P 	by
+1 	V 	keeps
+1 	V 	sleeps
+1 	V	made
+1 	VP 	sleeps
+1 	VP 	has been stolen
