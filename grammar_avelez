@@ -76,8 +76,8 @@
 #1 notS/NP that VP+FIN
 
 # rule (40)
-1 Q NP+WH Q/NP
-1 notQ NP+WH S/NP
+1 Q NP+WH Q/NP ?
+1 notQ NP+WH S/NP ?
 1 R NP+WH+PRO S/NP
 1 R NP-WH+PRO S/NP
 1 S NP S/NP
@@ -87,8 +87,8 @@
 1 R NP+R+WH+PRO S/NP
 
 # rule (41)
-1 Q NP+WH VP+FIN
-1 notQ NP+WH VP+FIN
+1 Q NP+WH VP+FIN ?
+1 notQ NP+WH VP+FIN ?
 1 R NP+R+WH+PRO VP+FIN
 1 R NP+R-WH+PRO VP+FIN
 1 S NP VP+FIN
@@ -172,7 +172,6 @@
 1 V likes
 1 N Mary
 1 N it
-#1 VP+FIN Mary likes
 1 V is
 1 N John
 1 Adv easy
@@ -186,12 +185,22 @@
 1 V hopes
 1 V win
 1 V wonder
+1 V have wanted
+1 N Rosa Luxemburg
+1 N many years
+1 V happened
+1 P for
 
 # to - probably need to improve
 1 Adv to
 1 N+PRO to
 1 P to
 1 Conj to
+
+# what
+1 NP+R+WH+PRO what
+1 NP-R+WH+PRO what
+1 NP+WH+PRO what
 
 
 
@@ -292,3 +301,94 @@
 1 S/NP S/NP and VP+FIN
 1 notS VP+FIN NP
 1 S VP+FIN NP
+
+
+# adding rule (23)
+
+1	VP/VP t
+1	NP/NP t
+1	R/R t
+1	PP/PP t
+1	notVP/notVP t
+
+# adding rule (22) Generalized Left Branch
+
+1 VP/NP NP/NP
+1 VP/NP R/NP
+1 VP/NP PP/NP
+1 VP/NP notVP/NP
+1 NP/NP VP/NP
+1 NP/NP R/NP
+1 NP/NP PP/NP
+1 NP/NP notVP/NP
+1 R/NP VP/NP
+1 R/NP NP/NP
+1 R/NP PP/NP
+1 R/NP notVP/NP
+1 PP/NP VP/NP
+1 PP/NP NP/NP
+1 PP/NP R/NP
+1 PP/NP notVP/NP
+1 notVP/NP VP/NP
+1 notVP/NP NP/NP
+1 notVP/NP R/NP
+1 notVP/NP PP/NP
+
+# adding rule (32) subject-auxiliary inversion
+
+1 Q V+FIN+AUX NP AP
+
+# adding rule (76) rightward displacement
+
+1 S S/R R
+1 S S/PP PP
+1 S S/VP VP
+1 S S/NP NP
+1 S S/notVP notVP
+1 S S/S S
+1 S S/notS notS
+1 notS notS/R R
+1 notS notS/PP PP
+1 notS notS/VP VP
+1 notS notS/NP NP
+1 notS notS/notVP notVP
+1 notS notS/S S
+1 notS notS/notS notS
+
+# adding rules (9) and (10) for surface constituent structure
+
+1 VPConj Conj VP
+1 VP VP VPConj
+1 NPConj Conj NP
+1 NP NP NPConj
+1 RConj Conj R
+1 R R RConj
+1 PPConj Conj PP
+1 PP PP PPConj
+1 notVPConj Conj notVP
+1 notVP notVP notVPConj
+
+# adding rule (39) NP holes
+
+1 notS/NP that VP+FIN
+1 VP/NP V VP+FIN
+1 R NP+R+WH+PRO VP+FIN
+1 R NP+R-WH+PRO VP+FIN
+1 Q NP+WH VP+FIN ?
+1 Q NP+WH VP+FIN ?
+1 notQ NP+WH VP+FIN ?
+1 R NP+WH+PRO VP+FIN
+1 R NP-WH+PRO VP+FIN
+1 S NP VP+FIN
+1 VP/NP V VP+FIN
+1 VP/NP V NP VP+FIN
+1 VP/NP V PP VP+FIN
+1 R NP+R+WH+PRO VP+FIN
+1 S/NP VP+FIN and S/NP
+1 S/NP S/NP and VP+FIN
+1 notS VP+FIN NP
+1 S VP+FIN NP
+1 S/NP VP+FIN and VP+FIN
+1 S/NP VP+FIN and VP+FIN
+1 S VP+FIN NP
+1 notS VP+FIN NP

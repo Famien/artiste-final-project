@@ -3,7 +3,7 @@
 grammar = "grammar_avelez"
 
 # constants
-s_categories_phrases = set(["VP","NP","PP","notS","notVP","S"])
+s_categories_phrases = set(["VP","NP","PP","notVP","R"])
 conjb = set(["and","or"])
 
 def open_grammar_append(g):
@@ -78,7 +78,7 @@ def rule_39(g):
 	r.close()
 
 # add rules
-#rule_23(grammar)
+# rule_23(grammar)
 # rule_22(grammar)
 # rule_32(grammar)
 # rule_76(grammar)
