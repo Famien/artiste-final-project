@@ -4,7 +4,7 @@
 1 VP V notVP
 1 VP V NP
 1 PP P NP
-1 notS that S
+1 notS notSword S
 1 VP V notS
 1 notVP notVPword VP
 1 VP V NP PP
@@ -16,7 +16,7 @@
 1 VP/NP V notVP/NP
 1 VP/NP V NP/NP
 1 PP/NP P NP/NP
-1 notS/NP that S/NP
+1 notS/NP notSword S/NP
 1 VP/NP V notS/NP
 1 notVP/NP notVPword VP/NP
 1 VP/NP V NP/NP PP
@@ -30,7 +30,7 @@
 1 VP/PP V notVP/PP
 1 VP/PP V NP/PP
 1 PP/PP P NP/PP
-1 notS/PP that S/PP
+1 notS/PP notSword S/PP
 1 VP/PP V notS/PP
 1 notVP/PP notVPword VP/PP
 1 VP/PP V NP/PP PP
@@ -44,7 +44,7 @@
 1 VP/VP V notVP/VP
 1 VP/VP V NP/VP
 1 PP/VP P NP/VP
-1 notS/VP that S/VP
+1 notS/VP notSword S/VP
 1 VP/VP V notS/VP
 1 notVP/VP notVPword VP/VP
 1 VP/VP V NP/VP PP
@@ -135,6 +135,8 @@
 # neatify
 1 notVPword to
 1 notVPword will
+1 notSword that
+1 notSword NP+WH
 
 # Vocab
 1 NP the man
@@ -187,7 +189,6 @@
 1 N it
 1 V is
 1 N John
-#1 Adv easy
 1 N I
 1 V know
 1 NP a man
@@ -215,6 +216,12 @@
 1 NP+R+WH+PRO what
 1 NP-R+WH+PRO what
 1 NP+WH+PRO what
+
+# the wh noun-phrase (berkeley parser rules)
+1 NP+WH NP+R+WH+PRO
+1 NP+WH NP-R+WH+PRO
+1 NP+WH NP+WH+PRO
+1 NP+WH Adv NP+WH
 
 
 
