@@ -1,0 +1,7 @@
+#  Sentences in (58) must follow from (9)
+
+# the kennel which Mary made and Fido sleeps in has been stolen 
+(S (NP (NP the kennel) (R (NP+R+WH+PRO which) (S/NP (S/NP (NP Mary) (VP/NP (V made) (NP/NP t))) and (S/NP (NP Fido) (VP/NP (V sleeps) (notS/NP (PP/NP (P in) (NP/NP t)))))))) (VP has been stolen))
+
+# the kennel in which Mary keeps drugs and Fido sleeps has been stolen 
+(S (NP (NP (NP the kennel) (R (PP+R+WH+PRO (P in) (NP+R+WH+PRO which)) (S/PP (NP Mary) (VP/PP (V keeps) (NP drugs) (PP/PP t))))) (NPConj (Conj and) (NP Fido))) (S/NP (NP/NP (VP/NP (V sleeps) (NP/NP t))) (VP has been stolen)))

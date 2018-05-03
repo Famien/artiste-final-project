@@ -1,20 +1,43 @@
-#  Sentences in (58) must follow from (9)
+# notes: in grammar_starter - "easy" should be A?
 
-# the kennel which Mary made and Fido sleeps in has been stolen 
-# (S (NP (NP the kennel) (R (NP+R+WH+PRO which) (S/NP (S/NP (NP Mary) (VP/NP (V made) (NP/NP t))) and (S/NP (NP Fido) (VP/NP (V sleeps) (notS/NP (PP/NP (P in) (NP/NP t)))))))) (VP has been stolen))
-
-# the kennel in which Mary keeps drugs and Fido sleeps has been stolen 
-# (S (NP (NP (NP the kennel) (R (PP+R+WH+PRO (P in) (NP+R+WH+PRO which)) (S/PP (NP Mary) (VP/PP (V keeps) (NP drugs) (PP/PP t))))) (NPConj (Conj and) (NP Fido))) (S/NP (NP/NP (VP/NP (V sleeps) (NP/NP t))) (VP has been stolen)))
-
-# *the kennel in which Mary made and Fido sleeps has been stolen
-
+# sentences 58
 
 1 	NP+R-WH+PRO	that   # confirm??
-1 	NP 	the kennel
-1 	NP 	drugs
+1 	N 	kennel
+1 	N 	drugs
 
 1 	V 	keeps
 1 	V 	sleeps
 1 	V	made
 1 	VP 	sleeps
-1 	VP 	has been stolen
+1 	VP 	has been stolen  # make more general
+
+# sentences 82: 
+
+1 	V 	hummed
+1 	V 	sang
+1 	V 	looked
+1 	V 	gave
+1 	V 	presented
+1 	VP+FIN 	looked AP
+
+1 	Det	the
+1 	Adv remarkably
+1 	A 	similar
+1 	A 	same
+1 	A 	equal
+
+1	N 	books
+1 	N 	tune
+1 	N 	volumes
+1 	N 	Joan
+1 	N 	Fred
+
+1 	NP 	N
+1 	NP 	Det N
+1 	N 	AP N
+1 	AP 	A
+1 	AP 	Adv A
+
+1	NP/NP t ,   # this is not right
+1 	P 	at
