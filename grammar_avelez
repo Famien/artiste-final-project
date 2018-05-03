@@ -267,7 +267,7 @@
 
 # adding rule (32) subject-auxiliary inversion
 
-1 Q V+FIN+AUX NP AP
+1 Q V+FIN+AUX NP AP ?
 
 
 
