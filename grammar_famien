@@ -71,6 +71,7 @@
 # straight from a tree
 1 Q/NP V NP VP/NP
 
+###
 
 # sentences (36) famien 
 1 Q/NP V+DO NP VP/N
@@ -92,6 +93,34 @@
 1 VBN seen
 1 PP+WH IN NP+WH
 1 IN in
+
+1 Q/AdvP MD NP VP/AdvP
+
+
+1 AdvP+WH WRB Adv
+1 WRB how
+1 Adv slowly
+
+1 NP PRP
+1 PRP he
+1 PRP she
+
+1 VP/AdvP V+B SBAR
+
+1 VP VBD+BE VBG
+1 VBG driving
+1 MD would
+1 MD did
+1 MD could
+1 V+B say
+
+1 AP+WH WRB A
+1 Q/AP VP/AP NP
+1 VP/AP VBD+BE
+#hand rule
+1 S NP VP/AdvP
+###
+
 
 # rule (44)
 # maybe take this out ?
@@ -190,7 +219,7 @@
 1 NP the Giants
 1 NP the Dodgers
 1 A suspicious
-1 AP+WH how
+1 AP+WH how #dc
 1 AdvP+WH how
 1 V likes
 1 N Mary
