@@ -167,9 +167,9 @@
 1 V think
 1 NP the woman
 1 V believed
-1 VP was ill
+1 V was ill
 1 NP who
-1 VP was there
+1 V was there
 1 NP Harry
 1 V caught
 1 NP Mary
@@ -224,6 +224,9 @@
 1 N Kennedy
 1 P of
 1 V spent
+1 A ill
+1 V believed
+
 
 # had
 1 V had Adv V
