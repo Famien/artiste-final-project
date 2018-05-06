@@ -132,6 +132,7 @@
 1 V AdvP V
 #1 V V AdvP
 1 N AP N
+1 NP Det N
 
 # neatify
 1 notVPword to
@@ -154,6 +155,8 @@
 1 NP+WH who
 1 V+FIN saw
 1 NP the man
+1 N man
+1 Det the
 1 Det+WH which
 1 N man
 1 V+FIN drove
