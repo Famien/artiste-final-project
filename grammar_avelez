@@ -213,7 +213,7 @@
 1 Adv actually
 1 V meet
 1 Det the
-1 Adj so much
+1 A so much
 1 N money
 1 V planning
 1 N assassination
@@ -243,7 +243,8 @@
 1 NP+WH NP+WH+PRO
 1 NP+WH Adv NP+WH
 
-
+# typo fix
+1 Adj A
 
 
 ### End of hard-code .. starting scripts for meta-rules###
