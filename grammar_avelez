@@ -131,11 +131,12 @@
 1 AdvP Adv
 1 V AdvP V
 #1 V V AdvP
+1 N AP N
+1 NP Det N
+
 #HACK
 1 VP VP AdvP 
 ####
-1 N AP N
-1 NP Det N
 
 # neatify
 1 notVPword to
@@ -248,6 +249,7 @@
 1 N each other
 1 N woman
 1 V came
+1 N man
 
 
 # was
