@@ -70,10 +70,10 @@
 1 VP+FIN+AUX V+FIN+AUX AP
 
 # rule (35)
-1 Q NP+WH Q/NP ?
-1 Q PP+WH Q/PP ?
-1 Q AP+WH Q/AP ?
-1 Q AdvP+WH Q/AdvP ?
+1 Q NP+WH Q/NP 
+1 Q PP+WH Q/PP 
+1 Q AP+WH Q/AP 
+1 Q AdvP+WH Q/AdvP 
 
 # Question left-branching
 # unsure about these
@@ -86,8 +86,8 @@
 1 Q/NP V NP VP/NP
 
 # rule (40)
-1 Q NP+WH Q/NP ?
-1 notQ NP+WH S/NP ?
+1 Q NP+WH Q/NP 
+1 notQ NP+WH S/NP 
 1 R NP+WH+PRO S/NP
 1 R NP-WH+PRO S/NP
 1 S NP S/NP
@@ -97,8 +97,8 @@
 1 R NP+R+WH+PRO S/NP
 
 # rule (41)
-1 Q NP+WH VP+FIN ?
-1 notQ NP+WH VP+FIN ?
+1 Q NP+WH VP+FIN 
+1 notQ NP+WH VP+FIN 
 1 R NP+R+WH+PRO VP+FIN
 1 R NP+R-WH+PRO VP+FIN
 1 S NP VP+FIN
@@ -205,6 +205,11 @@
 1 V happened
 1 P for
 1 Adv exactly
+1 V had hoped
+1 VP was Adj
+1 Adj true
+1 V defected
+1 N Iceland
 
 # to - probably need to improve
 1 Adv to
@@ -267,7 +272,7 @@
 
 # adding rule (32) subject-auxiliary inversion
 
-1 Q V+FIN+AUX NP AP ?
+1 Q V+FIN+AUX NP AP 
 
 
 
@@ -309,7 +314,7 @@
 1 VP/NP V VP+FIN
 1 R NP+R+WH+PRO VP+FIN
 1 R NP+R-WH+PRO VP+FIN
-1 Q NP+WH VP+FIN ?
+1 Q NP+WH VP+FIN 
 1 Q NP+WH VP+FIN
 1 notQ NP+WH VP+FIN
 1 R NP+WH+PRO VP+FIN
@@ -395,9 +400,9 @@
 1 VP/NP V VP+FIN
 1 R NP+R+WH+PRO VP+FIN
 1 R NP+R-WH+PRO VP+FIN
-1 Q NP+WH VP+FIN ?
-1 Q NP+WH VP+FIN ?
-1 notQ NP+WH VP+FIN ?
+1 Q NP+WH VP+FIN 
+1 Q NP+WH VP+FIN 
+1 notQ NP+WH VP+FIN 
 1 R NP+WH+PRO VP+FIN
 1 R NP-WH+PRO VP+FIN
 1 S NP VP+FIN
