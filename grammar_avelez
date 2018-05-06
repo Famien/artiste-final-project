@@ -130,7 +130,7 @@
 1 VP/NP V
 1 AdvP Adv
 1 V AdvP V
-#1 V V AdvP
+1 V V AdvP
 1 N AP N
 1 NP Det N
 
@@ -228,7 +228,7 @@
 1 V believed
 1 A pregnant
 1 V hit
-1 P a
+1 Det a
 1 N girl
 1 Adv in
 1 Adv out
@@ -243,6 +243,8 @@
 1 Adv always
 1 V have
 1 N each other
+1 N woman
+1 V came
 
 
 # was
