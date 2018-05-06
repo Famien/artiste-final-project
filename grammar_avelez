@@ -210,7 +210,7 @@
 1 P for
 1 Adv exactly
 1 V had hoped
-1 V was Adj
+1 V WAS Adj
 1 Adj true
 1 V defected
 1 N Iceland
@@ -226,7 +226,28 @@
 1 V spent
 1 A ill
 1 V believed
+1 A pregnant
+1 V hit
+1 P a
+1 N girl
+1 Adv in
+1 Adv out
+1 P in
+1 A similar
+1 N all kinds of ways
+1 Adv just
+1 V went
+1 V were
+1 V hate
+1 Adv like poison
+1 Adv always
+1 V have
+1 N each other
 
+
+# was
+1 WAS was
+1 WAS were
 
 # had
 1 V had Adv V
