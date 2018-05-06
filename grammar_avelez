@@ -131,6 +131,7 @@
 1 AdvP Adv
 1 V AdvP V
 #1 V V AdvP
+1 N AP N
 
 # neatify
 1 notVPword to
