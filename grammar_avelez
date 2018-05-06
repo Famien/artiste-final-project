@@ -129,6 +129,7 @@
 1 NP N
 1 VP/NP V
 1 AdvP Adv
+1 AdvP Adv Conj Adv
 1 V AdvP V
 1 V V AdvP
 1 N AP N
@@ -250,6 +251,7 @@
 1 N woman
 1 V came
 1 N man
+1 Adv always have
 
 
 # was
