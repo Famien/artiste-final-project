@@ -1,0 +1,1 @@
+(S (S (NP a man) (S/NP (VP/NP (V (AdvP (Adv just)) (V (V came) (AdvP (Adv in))))))) (SConj (Conj and) (S (NP (Det a) (N woman)) (VP (VP (V went) (notS (notS/NP (notSword (NP+WH (Adv out) (NP+WH who))) (S/NP (VP/NP (V hate)))) (NP (N each other)))) (AdvP (Adv like poison) (Conj and) (Adv always have))))))
