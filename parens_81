@@ -16,5 +16,8 @@ Harry has claimed t but I do not believe t that Melvin is a Communist
 
 I like t but Tom doesn't like t to visit new places
 
-(S (NP I) (S/NP (S/NP (VP/NP (V like) (NP/NP t))) (Conj but) (S/NP (NP/NP (NP (N Tom)) (PP/NP (VP/NP (V doesn't like) (NP/NP t)))) (VP (V to visit) (NP (N (AP (A new)) (N places)))))))
+(S (S/VP (S/VP (NP I) (VP/VP (V like) (VP/VP t))) (Conj but) (S/VP (NP (N Tom)) (VP/VP (V (DO doesn't) (V like)) (VP/VP t)))) (VP (V (AdvP (Adv to)) (V visit)) (NP (N (AP (A new)) (N places)))))
 
+I can tell you when t but I can't tell you why t he left me
+
+(S (S/S (S/S (S (NP I) (VP (V (CAN can) (V tell)) (NP (N you)))) (notS/S (notSword when) (S/S t))) (Conj but) (S/S (S (NP I) (VP (V (CAN can't) (V tell)) (NP (N you)))) (notS/S (notSword why) (S/S t)))) (S (NP (N he)) (VP (V left) (NP (N me)))))

@@ -2,6 +2,7 @@
 
 # sentences 58, 81, 82
 
+1 	S/S 	S/S Conj S/S
 1 	S/VP 	S/VP Conj S/VP
 1 	S/AP 	S/AP Conj S/AP
 1 	S/R 	S/R Conj S/R
@@ -11,6 +12,7 @@
 1 	S/VP 	NP notVP/VP
 1 	VP/AP 	V 	AP/AP   # todo: check this again
 1	VP/VP 	V 	VP/VP   # todo: check this again
+1 	S/S 	S notS/S
 
 # D(AP, G) (added)
 1 S/AP NP/AP AP
@@ -73,8 +75,8 @@
 1 	V 	still is
 1 	V	said
 1 	V 	like
-1 	V 	doesn't like
-1 	V 	to visit    # change this
+1 	V 	visit    
+1 	V 	have been A
 
 1 	Conj 	but
 
@@ -91,6 +93,8 @@
 1 	A 	raw
 1 	A 	suspicious
 1 	A 	new
+1 	A 	wondering
+1 	A 	correct
 
 1 	N 	Joan
 1 	N 	Fred
