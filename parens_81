@@ -1,0 +1,20 @@
+Jack may be t and Tony certainly is t a werewolf
+
+(S (S/NP (S/NP (NP (N Jack)) (VP/NP (V may be) (NP/NP t))) and (S/NP (NP (N Tony)) (VP/NP (V certainly is) (NP/NP t)))) (NP (Det a) (N werewolf)))
+
+Tom said he would t and Bill actually did t eat a raw eggplant
+
+(S (S/VP (S/VP (NP (N Tom)) (VP/VP (V said) (notVP/VP (notVPword he would) (VP/VP t)))) and (S/VP (NP (N Bill)) (notVP/VP (notVPword actually did) (VP/VP t)))) (VP (V eat) (NP (Det a) (N (AP (A raw)) (N eggplant)))))
+
+Tony used to be t and George still is t very suspicious
+
+(S (S/AP (S/AP (NP (N Tony)) (VP/AP (V used to be) (AP/AP t))) and (S/AP (NP (N George)) (VP/AP (V still is) (AP/AP t)))) (AP (Adv very) (A suspicious)))
+
+Harry has claimed t but I do not believe t that Melvin is a Communist
+
+(S (S (NP Harry) (S/NP (VP/NP (V has claimed) (NP/NP t)))) (SConj (Conj but) (S (NP I) (VP (V do not believe) (notS (notS/notS t) (notS that (S (NP (N Melvin)) (VP (V is) (NP (Det a) (N Communist))))))))))
+
+I like t but Tom doesn't like t to visit new places
+
+(S (NP I) (S/NP (S/NP (VP/NP (V like) (NP/NP t))) (Conj but) (S/NP (NP/NP (NP (N Tom)) (PP/NP (VP/NP (V doesn't like) (NP/NP t)))) (VP (V to visit) (NP (N (AP (A new)) (N places)))))))
+
