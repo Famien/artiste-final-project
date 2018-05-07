@@ -134,6 +134,7 @@
 1 V V AdvP
 1 N AP N
 1 NP Det N
+1 AP Adv A
 
 #HACK
 1 VP VP AdvP 
@@ -252,7 +253,51 @@
 1 V came
 1 N man
 1 Adv always have
+1 Adv may
+1 V be
+1 V is
+1 Adv certainly
+1 N Jack
+1 N Tony
+1 N werewolf
+1 A raw
+1 N Tom
+1 V said
+1 V would
+1 N he
+1 N Bill
+1 Adv actually
+1 V did
+1 V eat
+1 N eggplant
+1 V used to V
+1 Adv still
+1 Adv very
+1 A suspicious
+1 Adv not
+1 V DO V
+1 N Melvin
+1 N Communist
+1 V visit
+1 A new
+1 N places
+1 Conj when
+1 Conj why
+1 N he
+1 V left
+1 N me
+1 Conj whether
+1 Adv positively
+1 N your theory
+1 Adv correct
+1 Adv wouldn't 
+1 Adv would not
 
+
+# do
+1 DO do
+1 DO does
+1 DO doesn't
 
 # was
 1 WAS was
