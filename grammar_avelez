@@ -328,6 +328,7 @@
 1 V want
 1 V state
 1 Conj that
+1 Conj but
 
 # can
 1 CAN can
@@ -385,6 +386,7 @@
 1	NP/NP t
 1	R/R t
 1	S/S t
+1	S/S t SConj
 
 # adding rule (22) Generalized Left Branch
 
