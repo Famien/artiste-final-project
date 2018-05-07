@@ -329,6 +329,7 @@
 1 V state
 1 Conj that
 1 Conj but
+1 V want to V
 
 # can
 1 CAN can
@@ -375,8 +376,9 @@
 1 Adj A
 
 # other quick fixes
-#1	S/S t VPConj
+1	S/S t Conj VP/S
 1 notS/S notSword S/S
+1 VP/S V notS/S
 
 
 ### End of hard-code .. starting scripts for meta-rules###
