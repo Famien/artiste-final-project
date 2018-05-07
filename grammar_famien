@@ -9,6 +9,7 @@
 1 notVP notVPword VP
 1 VP V NP PP
 1 NP NP PP
+1 S Q
 
 # D(NP, G) (17)
 1 S/NP NP/NP VP
@@ -78,8 +79,6 @@
 
 1 VP/N V+B SBAR
 
-1 SBAR S
-
 1 V+DO did
 
 1 NP you
@@ -105,8 +104,6 @@
 1 PRP he
 1 PRP she
 
-1 VP/AdvP V+B SBAR
-
 1 VP VBD+BE VBG
 1 VBG driving
 1 MD would
@@ -117,8 +114,15 @@
 1 AP+WH WRB A
 1 Q/AP VP/AP NP
 1 VP/AP VBD+BE
-#hand rule
-1 S NP VP/AdvP
+
+1 S/AdvP NP VP/AdvP
+
+1 VP/AdvP V+B S/AdvP
+
+1 VP/AdvP VBD+BE VBG
+
+1 S/AdvP NP VP/AdvP
+ 
 ###
 
 
