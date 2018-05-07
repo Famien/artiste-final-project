@@ -1,0 +1,1 @@
+(S (S (NP I) (S/NP (VP/NP (V like) (NP/NP t)))) (SConj (Conj but) (S (NP (N Tom)) (VP (V (DO doesn't) (V like)) (notS (notS/notS t) (notS (notS/NP (notVP/NP (notVPword to) (VP/NP (V visit)))) (NP (N (AP (A new)) (N places)))))))))
