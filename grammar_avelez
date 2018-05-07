@@ -52,6 +52,28 @@
 1 NP/VP NP/VP PP
 1 NP/VP NP PP/VP
 
+# D(AP, G) (added)
+1 S/AP NP/AP VP
+1 S/AP NP VP/AP
+1 VP/AP V notVP/AP
+1 VP/AP V NP/AP
+1 PP/AP P NP/AP
+1 notS/AP notSword S/AP
+1 VP/AP V notS/AP
+1 notVP/AP notVPword VP/AP
+1 VP/AP V NP/AP PP
+1 VP/AP V NP PP/AP
+1 NP/AP NP/AP PP
+1 NP/AP NP PP/AP
+
+# important edits (since adjectives aren't fully supported)
+1 VP/AP V/AP notVP
+1 VP/AP V/AP NP
+1 VP/AP V/AP notS
+1 VP/AP V/AP NP PP
+1 V/AP BE AP/AP
+1 AP/AP t
+
 # rule (24)
 1 NP NP R
 
