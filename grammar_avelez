@@ -375,7 +375,8 @@
 1 Adj A
 
 # other quick fixes
-1	S/S t VPConj
+#1	S/S t VPConj
+1 notS/S notSword S/S
 
 
 ### End of hard-code .. starting scripts for meta-rules###
