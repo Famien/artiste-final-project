@@ -73,6 +73,7 @@
 1 VP/AP V/AP NP PP
 1 V/AP BE AP/AP
 1 AP/AP t
+1 VP/AP VP/AP AP
 
 # rule (24)
 1 NP NP R
