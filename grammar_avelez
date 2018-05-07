@@ -52,6 +52,25 @@
 1 NP/VP NP/VP PP
 1 NP/VP NP PP/VP
 
+# D(AP, G) (added)
+1 S/AP NP/AP VP
+1 S/AP NP VP/AP
+1 VP/AP V notVP/AP
+1 VP/AP V NP/AP
+1 PP/AP P NP/AP
+1 notS/AP notSword S/AP
+1 VP/AP V notS/AP
+1 notVP/AP notVPword VP/AP
+1 VP/AP V NP/AP PP
+1 VP/AP V NP PP/AP
+1 NP/AP NP/AP PP
+1 NP/AP NP PP/AP
+
+# important edits (since adjectives aren't fully supported)
+1 AP/AP t
+1 VP/AP VP/AP AP
+1 VP/AP V AP/AP
+
 # rule (24)
 1 NP NP R
 
@@ -70,10 +89,10 @@
 1 VP+FIN+AUX V+FIN+AUX AP
 
 # rule (35)
-1 Q NP+WH Q/NP ?
-1 Q PP+WH Q/PP ?
-1 Q AP+WH Q/AP ?
-1 Q AdvP+WH Q/AdvP ?
+1 Q NP+WH Q/NP 
+1 Q PP+WH Q/PP 
+1 Q AP+WH Q/AP 
+1 Q AdvP+WH Q/AdvP 
 
 # Question left-branching
 # unsure about these
@@ -86,8 +105,8 @@
 1 Q/NP V NP VP/NP
 
 # rule (40)
-1 Q NP+WH Q/NP ?
-1 notQ NP+WH S/NP ?
+1 Q NP+WH Q/NP 
+1 notQ NP+WH S/NP 
 1 R NP+WH+PRO S/NP
 1 R NP-WH+PRO S/NP
 1 S NP S/NP
@@ -97,8 +116,8 @@
 1 R NP+R+WH+PRO S/NP
 
 # rule (41)
-1 Q NP+WH VP+FIN ?
-1 notQ NP+WH VP+FIN ?
+1 Q NP+WH VP+FIN 
+1 notQ NP+WH VP+FIN 
 1 R NP+R+WH+PRO VP+FIN
 1 R NP+R-WH+PRO VP+FIN
 1 S NP VP+FIN
@@ -129,14 +148,25 @@
 1 NP N
 1 VP/NP V
 1 AdvP Adv
+1 AdvP Adv Conj Adv
 1 V AdvP V
-#1 V V AdvP
+1 V V AdvP
+1 N AP N
+1 NP Det N
+1 AP Adv A
+
+#HACK
+#1 VP VP AdvP 
+####
 
 # neatify
 1 notVPword to
 1 notVPword will
 1 notSword that
 1 notSword NP+WH
+1 notSword when
+1 notSword why
+1 notSword whether
 
 # Vocab
 1 NP the man
@@ -153,6 +183,8 @@
 1 NP+WH who
 1 V+FIN saw
 1 NP the man
+1 N man
+1 Det the
 1 Det+WH which
 1 N man
 1 V+FIN drove
@@ -163,9 +195,9 @@
 1 V think
 1 NP the woman
 1 V believed
-1 VP was ill
+1 V was ill
 1 NP who
-1 VP was there
+1 V was there
 1 NP Harry
 1 V caught
 1 NP Mary
@@ -205,12 +237,129 @@
 1 V happened
 1 P for
 1 Adv exactly
+1 V had hoped
+1 V WAS Adj
+1 Adj true
+1 V defected
+1 N Iceland
+1 Adv actually
+1 V meet
+1 Det the
+1 A so much
+1 N money
+1 V planning
+1 N assassination
+1 N Kennedy
+1 P of
+1 V spent
+1 A ill
+1 V believed
+1 A pregnant
+1 V hit
+1 Det a
+1 N girl
+1 Adv in
+1 Adv out
+1 P in
+1 A similar
+1 N all kinds of ways
+1 Adv just
+1 V went
+1 V were
+1 V hate
+1 Adv like poison
+1 Adv always
+1 V have
+1 N each other
+1 N woman
+1 V came
+1 N man
+1 Adv always have
+1 Adv may
+1 V be
+1 V is
+1 Adv certainly
+1 N Jack
+1 N Tony
+1 N werewolf
+1 A raw
+1 N Tom
+1 V said
+1 V would
+1 N he
+1 N Bill
+1 Adv actually
+1 V did
+1 V eat
+1 N eggplant
+1 V used to V
+1 Adv still
+1 Adv very
+1 A suspicious
+1 Adv not
+1 V DO V
+1 N Melvin
+1 N Communist
+1 V visit
+1 A new
+1 N places
+1 Conj when
+1 Conj why
+1 N he
+1 V left
+1 N me
+1 Conj whether
+1 Adv positively
+1 N your theory
+1 Adv correct
+1 Adv wouldn't 
+1 Adv would not
+1 N George
+1 V claimed
+1 V has V
+1 Conj but
+1 V believe
+1 V like
+1 V CAN V
+1 V tell
+1 N you
+1 V have been V
+1 V wondering
+1 V want
+1 V state
+1 Conj that
+1 Conj but
+1 V want to V
+
+# can
+1 CAN can
+1 CAN can't
+
+# be, is
+1 V BE AP
+1 BE be
+1 BE being
+1 BE is
+
+# do
+1 DO do
+1 DO does
+1 DO doesn't
+
+# was
+1 WAS was
+1 WAS were
+
+# had
+1 V had Adv V
+1 V had
+1 V had V
 
 # to - probably need to improve
 1 Adv to
 1 N+PRO to
 1 P to
-1 Conj to
+#1 Conj to
 
 # what
 1 NP+R+WH+PRO what
@@ -223,7 +372,13 @@
 1 NP+WH NP+WH+PRO
 1 NP+WH Adv NP+WH
 
+# typo fix
+1 Adj A
 
+# other quick fixes
+1	S/S t Conj VP/S
+1 notS/S notSword S/S
+1 VP/S V notS/S
 
 
 ### End of hard-code .. starting scripts for meta-rules###
@@ -236,6 +391,8 @@
 1	PP/PP t
 1	NP/NP t
 1	R/R t
+1	S/S t
+
 
 # adding rule (22) Generalized Left Branch
 
@@ -267,7 +424,7 @@
 
 # adding rule (32) subject-auxiliary inversion
 
-1 Q V+FIN+AUX NP AP ?
+1 Q V+FIN+AUX NP AP 
 
 
 
@@ -279,12 +436,14 @@
 1 notS notS/S S
 1 notS notS/NP NP
 1 notS notS/PP PP
+1 notS notS/AP AP
 1 S S/notS notS
 1 S S/notVP notVP
 1 S S/VP VP
 1 S S/S S
 1 S S/NP NP
 1 S S/PP PP
+1 S S/AP AP
 
 
 # adding rules (9) and (10) for surface constituent structure
@@ -309,7 +468,7 @@
 1 VP/NP V VP+FIN
 1 R NP+R+WH+PRO VP+FIN
 1 R NP+R-WH+PRO VP+FIN
-1 Q NP+WH VP+FIN ?
+1 Q NP+WH VP+FIN 
 1 Q NP+WH VP+FIN
 1 notQ NP+WH VP+FIN
 1 R NP+WH+PRO VP+FIN
@@ -395,9 +554,9 @@
 1 VP/NP V VP+FIN
 1 R NP+R+WH+PRO VP+FIN
 1 R NP+R-WH+PRO VP+FIN
-1 Q NP+WH VP+FIN ?
-1 Q NP+WH VP+FIN ?
-1 notQ NP+WH VP+FIN ?
+1 Q NP+WH VP+FIN 
+1 Q NP+WH VP+FIN 
+1 notQ NP+WH VP+FIN 
 1 R NP+WH+PRO VP+FIN
 1 R NP-WH+PRO VP+FIN
 1 S NP VP+FIN
