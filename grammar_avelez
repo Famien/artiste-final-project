@@ -374,6 +374,9 @@
 # typo fix
 1 Adj A
 
+# other quick fixes
+1	S/S t VPConj
+
 
 ### End of hard-code .. starting scripts for meta-rules###
 
@@ -386,7 +389,7 @@
 1	NP/NP t
 1	R/R t
 1	S/S t
-1	S/S t SConj
+
 
 # adding rule (22) Generalized Left Branch
 
