@@ -145,6 +145,8 @@
 1 notVPword will
 1 notSword that
 1 notSword NP+WH
+1 notSword when
+1 notSword why
 
 # Vocab
 1 NP the man
@@ -295,6 +297,8 @@
 1 N George
 1 V claimed
 1 V has V
+1 Conj but
+1 V believe
 
 # be, is
 1 V BE AP
@@ -390,12 +394,14 @@
 1 notS notS/S S
 1 notS notS/NP NP
 1 notS notS/PP PP
+1 notS notS/AP AP
 1 S S/notS notS
 1 S S/notVP notVP
 1 S S/VP VP
 1 S S/S S
 1 S S/NP NP
 1 S S/PP PP
+1 S S/AP AP
 
 
 # adding rules (9) and (10) for surface constituent structure
