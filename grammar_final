@@ -62,17 +62,32 @@
 # sentences 58, 81, 82
 
 1 	S/S 	S/S Conj S/S
+1 	S/notS 	S/notS Conj S/notS
 1 	S/VP 	S/VP Conj S/VP
 1 	S/AP 	S/AP Conj S/AP
 1 	S/R 	S/R Conj S/R
 1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
 
-# ADDED - not in Gazdar at all (handles "Bill actually did t")
+# ADDED - not in Gazdar at all (handles "Bill actually did t"
 1 	S/VP 	NP notVP/VP
 1 	VP/AP 	V 	AP/AP   # todo: check this again
 1	VP/VP 	V 	VP/VP   # todo: check this again
-1 	S/S 	S notS/S
+#1 	S/S 	S notS/S
 1 	S 		PP notS
+
+# D(notS, G) (added)
+1 S/notS NP/notS notS
+1 S/notS NP VP/notS
+1 VP/notS V notVP/notS
+1 VP/notS V NP/notS
+1 PP/notS P NP/notS
+1 notS/notS notSword S/notS
+1 VP/notS V notS/notS
+1 notVP/notS notVPword VP/notS
+1 VP/notS V NP/notS PP
+1 VP/notS V NP PP/notS
+1 NP/notS NP/notS PP
+1 NP/notS NP PP/notS
 
 # D(AP, G) (added)
 1 S/AP NP/AP AP
@@ -517,8 +532,8 @@
 1 V visit
 1 A new
 1 N places
-1 Conj when
-1 Conj why
+#1 Conj when   ?????
+#1 Conj why
 1 N he
 1 V left
 1 N me
@@ -540,8 +555,7 @@
 1 V wondering
 1 V want
 1 V state
-1 Conj that
-1 Conj but
+#1 Conj that    #???????
 1 V want to V
 
 # can

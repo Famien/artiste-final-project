@@ -12,7 +12,7 @@ Tony used to be t and George still is t very suspicious
 
 Harry has claimed t but I do not believe t that Melvin is a Communist
 
-(S (S (NP Harry) (S/NP (VP/NP (V has claimed) (NP/NP t)))) (SConj (Conj but) (S (NP I) (VP (V do not believe) (notS (notS/notS t) (notS that (S (NP (N Melvin)) (VP (V is) (NP (Det a) (N Communist))))))))))
+(S (S/notS (S/notS (NP Harry) (VP/notS (V has claimed) (notS/notS t))) (Conj but) (S/notS (NP I) (VP/notS (V do not believe) (notS/notS t)))) (notS (notSword that) (S (NP (N Melvin)) (VP (V is) (NP (Det a) (N Communist))))))
 
 I like t but Tom doesn't like t to visit new places
 
