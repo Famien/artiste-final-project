@@ -68,11 +68,11 @@
 1 	S/R 	S/R Conj S/R
 1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
 
-# ADDED - not in Gazdar at all (handles "Bill actually did t"
+# ADDED - not in Gazdar at all (handles "Bill actually did t")
 1 	S/VP 	NP notVP/VP
 1 	VP/AP 	V 	AP/AP   # todo: check this again
 1	VP/VP 	V 	VP/VP   # todo: check this again
-#1 	S/S 	S notS/S
+1 	S/S 	S notS/S
 1 	S 		PP notS
 
 # D(notS, G) (added)
@@ -224,6 +224,41 @@
 1 	P 	at
 1	P 	on
 1 	P 	under
+
+# bad sentences vocab
+1 	N 	fact
+1 	N 	exam
+1	N 	Sandy
+1 	N 	horses
+1 	N 	cows
+1 	N 	Pete
+1 	N 	Cadillac
+1 	N 	Seymour
+1 	N 	virgin
+
+1 	V 	come
+1 	V 	arrange
+1 	V 	support
+1 	V 	supported
+1 	V 	surprised
+1 	V 	passes
+1 	V 	talked
+1 	V 	asked
+1	V 	find
+1 	V 	bought
+1 	V 	finds
+1	V 	told
+1 	V 	showed
+1 	V 	matters
+1 	V 	offered
+
+1 	A 	more
+1	A 	hard
+1	A 	dishonest
+1 	A 	down
+1 	notSword 	if
+1 	NP+WH 	where
+
 ####
 
 # G (16)
