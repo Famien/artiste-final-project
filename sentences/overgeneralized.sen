@@ -1,11 +1,11 @@
 the man who I think that chased Fido returned
-(S (NP (NP the man) (R (NP+R+WH+PRO who) (S/NP (NP I) (VP/NP (V think) (notS/NP that (VP+FIN chased Fido)))))) (VP returned))
+(S (NP (NP the man) (R (NP+R+WH+PRO who) (S/NP (NP I) (VP/NP (V think) (barS/NP that (VP+FIN chased Fido)))))) (VP returned))
 
 the table that I put Kim on t surprised Kim
-(S (NP (NP (Det the) (N table)) (R (NP+R-WH+PRO that) (S/NP (NP I) (VP/NP (V put) (NP Kim) (PP/NP (P on) (NP/NP t)))))) (VP (V surprised) (NP Kim))
+(S (NP (NP (Det the) (N table)) (R (NP+R-WH+PRO that) (S/NP (NP I) (VP/NP (V put) (NP Kim) (PP/NP (P on) (NP/NP t)))))) (VP (V surprised) (NP Kim)))
 
 John is easy to please and to love Mary
-(S (S/NP (NP (N John)) (VP/NP (VP/NP (V (BE is) (AP (A easy))) (notVP/NP (notVPword to) (VP/NP (V please)))) and (VP/NP (V (AdvP (Adv to)) (V love))))) (NP Mary))
+(S (S/NP (NP (N John)) (VP/NP (VP/NP (V (BE is) (AP (A easy))) (barVP/NP (barVPword to) (VP/NP (V please)))) and (VP/NP (V (AdvP (Adv to)) (V love))))) (NP Mary))
 
 the man who Mary loves and Sally hates George computed my tax
 (S (NP (NP the man) (R (R (NP+R+WH+PRO who) (S/NP (NP Mary) (VP/NP (V loves)))) (RConj (Conj and) (R (NP (N Sally)) (VP (V hates) (NP (N George))))))) (VP (V computed) (NP (N my tax))))
@@ -17,4 +17,4 @@ I know a man who Bill saw and liked Mary
 (S (NP I) (VP (V know) (NP a man) (R (NP+R+WH+PRO who) (S/NP (S/NP (NP (N Bill)) (VP/NP (V saw))) and (VP+FIN (V+FIN liked) (NP Mary))))))
 
 I wonder who Bill saw and liked Mary
-(S (S/NP (NP I) (VP/NP (V wonder) (notS/NP (notSword (NP+WH who)) (S/NP (NP (N Bill)) (VP/NP (VP/NP (V saw)) and (VP/NP (V liked))))))) (NP Mary))
+(S (S/NP (NP I) (VP/NP (V wonder) (barS/NP (barSword (NP+WH who)) (S/NP (NP (N Bill)) (VP/NP (VP/NP (V saw)) and (VP/NP (V liked))))))) (NP Mary))
