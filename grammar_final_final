@@ -69,11 +69,11 @@
 1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
 
 # ADDED - not in Gazdar at all (handles "Bill actually did t")
-1 	S/VP 	NP notVP/VP
-1 	VP/AP 	V 	AP/AP   # todo: check this again
-1	VP/VP 	V 	VP/VP   # todo: check this again
-1 	S/S 	S notS/S
-1 	S 		PP notS
+#1 	S/VP 	NP notVP/VP
+#1 	VP/AP 	V 	AP/AP   # todo: check this again
+#1	VP/VP 	V 	VP/VP   # todo: check this again
+#1 	S/S 	S notS/S
+#1 	S 		PP notS
 
 # D(notS, G) (added)
 1 S/notS NP/notS notS
@@ -132,7 +132,7 @@
 1 	V 	sleeps
 1 	V	made
 1 	VP 	sleeps
-1 	VP 	has been stolen  # make more general
+1 	VP 	has been stolen  
 
 1 	V 	hummed
 1 	V 	sang
@@ -357,11 +357,6 @@
 1 Q AP+WH Q/AP 
 1 Q AdvP+WH Q/AdvP 
 
-# Question left-branching
-# unsure about these
-#1 Q/AP AP VP/AP
-#1 VP/AP was Mary
-
 #1 Q/AdvP AdvP Q
 
 # straight from a tree
@@ -391,7 +386,7 @@
 # rule (50)
 1 VP V NP R
 
-# SOMETHING WENT WRONG ON THESE
+# These follow from trees/rules/metarules
 1 NP/R NP R/R
 1 S/R NP/R VP
 1 S S/R R
@@ -419,9 +414,9 @@
 1 AP Adv A
 
 #HACK
-1 VP/AdvP V AdvP/AdvP
-1 VP/AdvP AdvP/AdvP V
-1 AdvP/AdvP t
+#1 VP/AdvP V AdvP/AdvP
+#1 VP/AdvP AdvP/AdvP V
+1 AdvP/AdvP t # this follows from other rule
 ####
 
 # neatify
@@ -568,8 +563,6 @@
 1 V visit
 1 A new
 1 N places
-#1 Conj when   ?????
-#1 Conj why
 1 N he
 1 V left
 1 N me
@@ -591,7 +584,6 @@
 1 V wondering
 1 V want
 1 V state
-#1 Conj that    #???????
 1 V want to V
 
 # can
@@ -655,34 +647,6 @@
 1	NP/NP t
 1	R/R t
 1	S/S t
-
-
-# adding rule (22) Generalized Left Branch
-
-1 notS/NP notVP/NP
-1 notS/NP NP/NP
-1 notS/NP VP/NP
-1 notS/NP PP/NP
-1 notVP/NP notS/NP
-1 notVP/NP NP/NP
-1 notVP/NP VP/NP
-1 notVP/NP PP/NP
-1 NP/NP notS/NP
-1 NP/NP notVP/NP
-1 NP/NP VP/NP
-1 NP/NP PP/NP
-1 VP/NP notS/NP
-1 VP/NP notVP/NP
-1 VP/NP NP/NP
-1 VP/NP PP/NP
-1 PP/NP notS/NP
-1 PP/NP notVP/NP
-1 PP/NP NP/NP
-1 PP/NP VP/NP
-1 S/NP notVP/NP
-1 S/NP NP/NP
-1 S/NP VP/NP
-1 S/NP PP/NP
 
 
 # adding rule (32) subject-auxiliary inversion
@@ -754,28 +718,6 @@
 1	PP/PP t
 1	notVP/notVP t
 
-# adding rule (22) Generalized Left Branch
-
-1 VP/NP NP/NP
-1 VP/NP R/NP
-1 VP/NP PP/NP
-1 VP/NP notVP/NP
-1 NP/NP VP/NP
-1 NP/NP R/NP
-1 NP/NP PP/NP
-1 NP/NP notVP/NP
-1 R/NP VP/NP
-1 R/NP NP/NP
-1 R/NP PP/NP
-1 R/NP notVP/NP
-1 PP/NP VP/NP
-1 PP/NP NP/NP
-1 PP/NP R/NP
-1 PP/NP notVP/NP
-1 notVP/NP VP/NP
-1 notVP/NP NP/NP
-1 notVP/NP R/NP
-1 notVP/NP PP/NP
 
 # adding rule (32) subject-auxiliary inversion
 
