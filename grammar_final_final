@@ -69,11 +69,11 @@
 1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
 
 # ADDED - not in Gazdar at all (handles "Bill actually did t")
-1 	S/VP 	NP notVP/VP
-1 	VP/AP 	V 	AP/AP   # todo: check this again
-1	VP/VP 	V 	VP/VP   # todo: check this again
-1 	S/S 	S notS/S
-1 	S 		PP notS
+#1 	S/VP 	NP notVP/VP
+#1 	VP/AP 	V 	AP/AP   # todo: check this again
+#1	VP/VP 	V 	VP/VP   # todo: check this again
+#1 	S/S 	S notS/S
+#1 	S 		PP notS
 
 # D(notS, G) (added)
 1 S/notS NP/notS notS
