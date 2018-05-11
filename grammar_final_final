@@ -39,6 +39,10 @@
 1 SConj/S Conj S/S
 1 Conj when #subordinate
 1 Conj why #subordinate
+
+1 VP V NP NP
+
+1 S/NP NP V NP NP/NP
 #########
 
 # FAMIEN
