@@ -23,6 +23,7 @@
 1 VP/NP V+B S/NP
 1 Q NP+WH Q/NP
 
+1 S/NP S/NP Conj S/NP
 #########
 
 # FAMIEN
