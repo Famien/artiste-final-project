@@ -5,6 +5,10 @@
 1 PP+WH P which N
 1 PP+WH PP+WH Conj PP+WH
 1 Q PP+WH Q/PP
+1 NP/PP Det N
+1 NP/VP Det N
+1 NP/S Det N
+1 NP/barS Det N
 #########
 
 # FAMIEN
