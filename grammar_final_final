@@ -40,6 +40,9 @@
 1 Conj when #subordinate
 1 Conj why #subordinate
 
+1 VP V NP NP
+
+1 S/NP NP V NP NP/NP
 1 NP+WH what
 1 Q/NP SQ
 1 SQ V PP
