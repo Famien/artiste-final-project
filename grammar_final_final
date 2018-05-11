@@ -41,7 +41,8 @@
 1 Conj why #subordinate
 
 1 NP+WH what
-1 Q/NP V PP/NP
+1 Q/NP SQ
+1 SQ V PP
 #########
 
 # FAMIEN
