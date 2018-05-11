@@ -47,8 +47,8 @@
 1 Q/NP SQ
 1 SQ V PP
 1 Q AdvP Q
-1 VP V Q
-1 VP V Q AdvP
+1 VP VP Q
+
 #########
 
 # FAMIEN
