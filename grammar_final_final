@@ -2,13 +2,20 @@
 1 VP V R
 1 VP V
 1 VBD+BE did
-1 PP+WH P which N
+1 PP+WH P NP+WH
 1 PP+WH PP+WH Conj PP+WH
 1 Q PP+WH Q/PP
 1 NP/PP Det N
 1 NP/VP Det N
 1 NP/S Det N
 1 NP/barS Det N
+1 VP/PP V
+1 VP/NP V
+1 VP/S V
+1 VP/barS V
+
+1 NP+WH Det+WH N
+1 NP+WH NP+WH and NP+WH
 #########
 
 # FAMIEN
