@@ -43,6 +43,9 @@
 1 NP+WH what
 1 Q/NP SQ
 1 SQ V PP
+1 Q AdvP Q
+1 VP V Q
+1 VP V Q AdvP
 #########
 
 # FAMIEN
