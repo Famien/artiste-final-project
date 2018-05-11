@@ -33,6 +33,10 @@
 1 VP/VP V+AUX VP/VP
 1 VP V+AUX VP
 1 V+AUX AdvP V+AUX
+
+1 S S/S S
+1 S/S S SConj/S
+1 SConj/S Conj S/S
 #########
 
 # FAMIEN
