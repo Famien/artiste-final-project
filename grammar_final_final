@@ -16,6 +16,9 @@
 
 1 NP+WH Det+WH N
 1 NP+WH NP+WH and NP+WH
+
+1 S/PP S/PP Conj S/PP
+1 S/VP S/VP Conj S/VP
 #########
 
 # FAMIEN
