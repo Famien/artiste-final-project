@@ -1,3 +1,8 @@
+## NEW ##
+1 VP V R
+1 VP V
+#########
+
 # FAMIEN
 1 S Q
 ###
@@ -412,10 +417,6 @@
 1 N AP N
 1 NP Det N
 1 AP Adv A
-
-## NEW ##
-1 VP V R
-#########
 
 #HACK
 #1 VP/AdvP V AdvP/AdvP
