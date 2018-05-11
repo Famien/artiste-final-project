@@ -12,9 +12,9 @@
 ###
 
 # sentences (36) famien 
-1 Q/NP V+DO NP VP/N
+1 Q/NP V+DO NP VP/NP
 
-1 VP/N V+B SBAR
+1 VP/NP V+B SBAR
 
 1 V+DO did
 
