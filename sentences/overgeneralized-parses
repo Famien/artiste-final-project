@@ -1,0 +1,30 @@
+(S (NP the man) (VP (V chased) (R (NP Fido) (VP returned))))
+(S (NP (NP the man) (R (NP I) (VP (V think) (R (NP+R-WH+PRO that) (VP+FIN chased Fido))))) (VP returned))
+(S (NP (NP the man) (R (NP+R+WH+PRO who) (S/NP (NP I) (VP/NP (V think) (barS/NP that (VP+FIN chased Fido)))))) (VP returned))
+(S (Q (NP+WH who) (Q/NP (V+DO did) (NP you) (VP/NP (V believe) (barS/NP (barSword that) (S/NP (NP/NP t) (VP (V came))))))))
+(S (Q (NP+WH who) (Q/NP (V+DO did) (NP you) (VP/NP (V wonder) (barS/NP (barSword whether) (S/NP (NP/NP t) (VP (V came))))))))
+(S (Q (NP+WH who) (Q/NP (V+DO did) (NP you) (VP/NP (V wonder) (barS/NP (barSword if) (S/NP (NP/NP t) (VP (V came))))))))
+failure
+failure
+failure
+failure
+failure
+failure
+failure
+(S (NP (NP (Det the) (N table)) (R (NP+R-WH+PRO that) (S/NP (NP I) (VP/NP (V put) (NP Kim) (PP/NP (P on) (NP/NP t)))))) (VP (V surprised) (NP Kim)))
+failure
+(S (NP (N John)) (VP (V (BE is) (AP (A easy))) (barVP (barVP (barVPword to) (VP (V please))) (barVPConj (Conj and) (barVP (barVPword to) (VP (V love) (NP Mary)))))))
+(S (NP (NP (NP the man) (R (NP+R+WH+PRO who) (S/NP (NP Mary) (VP/NP (V loves))))) (NPConj (Conj and) (NP (N Sally)))) (VP (V hates) (R (NP (N George)) (VP (V computed) (NP (N my tax))))))
+(S (NP (NP the kennel) (R (R (NP+R+WH+PRO which) (S/NP (NP Mary) (VP/NP (V made)))) (RConj (Conj and) (R (NP Fido) (VP sleeps))))) (VP has been stolen))
+warning:  input word is not in the grammar (than)
+failure
+(S (NP I) (VP (V know) (NP a man) (R (NP+R+WH+PRO who) (S/NP (S/NP (NP (N Bill)) (VP/NP (V saw))) and (VP+FIN (V+FIN liked) (NP Mary))))))
+(S (NP I) (VP (V wonder) (R (NP+R+WH+PRO who) (S/NP (S/NP (NP (N Bill)) (VP/NP (V saw))) and (VP+FIN (V+FIN liked) (NP Mary))))))
+failure
+failure
+failure
+(S (Q (NP+WH (NP+WH (Det+WH which) (N city)) and (NP+WH (Adv to) (NP+WH (Det+WH which) (N conference)))) (Q/NP (V+DO did) (NP (N Bill)) (VP/NP (V (V go) (AdvP (Adv to)))))))
+(S (Q (PP+WH (P to) (NP+WH (NP+WH (Det+WH which) (N city)) and (NP+WH (Det+WH which) (N conference)))) (Q/PP (VBD+BE did) (NP (N Bill)) (VP/PP (V (V go) (AdvP (Adv to)))))))
+failure
+(S (S (NP (N John)) (VP (V offered))) (SConj (Conj and) (S (NP Harry) (VP (V gave) (NP (N Sally)) (NP (Det a) (N Cadillac))))))
+failure
