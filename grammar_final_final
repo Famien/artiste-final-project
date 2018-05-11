@@ -412,8 +412,11 @@
 1 N AP N
 1 NP Det N
 1 AP Adv A
+
+## NEW ##
 1 VP V Q
 1 VP V R
+#########
 
 #HACK
 #1 VP/AdvP V AdvP/AdvP
