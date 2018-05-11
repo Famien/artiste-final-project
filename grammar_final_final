@@ -27,6 +27,9 @@
 
 1 VP V PP
 1 VP/NP V PP/NP
+
+1 V V+AUX V
+1 V+AUX did
 #########
 
 # FAMIEN
