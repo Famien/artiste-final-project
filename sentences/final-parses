@@ -1,48 +1,48 @@
-(S (S (NP the Dodgers) (VP (V beat) (NP the Red Sox))) (SConj (Conj and) (S (NP the Giants) (VP (V beat) (NP the Dodgers)))))
+(S (NP the Dodgers) (VP (V beat) (R (NP (NP the Red Sox) (NPConj (Conj and) (NP the Giants))) (VP (V beat) (NP the Dodgers)))))
 (S (NP (NP the man) (R (NP+R-WH+PRO that) (VP+FIN chased Fido))) (VP returned))
-failure
+(S (NP (NP the man) (R (NP I) (VP (V think)))) (VP (V chased) (R (NP Fido) (VP returned))))
 (S (NP (NP the man) (R (NP+R+WH+PRO who) (S/NP (NP I) (VP/NP (V think) (VP+FIN chased Fido))))) (VP returned))
-failure
+(S (NP who) (VP (V did) (R (NP you) (VP (V think) (R (NP Mary) (VP (V saw)))))))
 (S (Q (PP+WH (IN in) (NP+WH (Det+WH which) (N car))) (Q/PP (VBD+BE was) (NP the man) (VP/PP (VBN seen)))))
 (S (Q (AdvP+WH (WRB how) (Adv slowly)) (Q/AdvP (MD would) (NP you) (VP/AdvP (V+B say) (S/AdvP (NP (PRP he)) (VP/AdvP (VBD+BE was) (VBG driving)))))))
 (S (Q (AP+WH (WRB how) (A suspicious)) (Q/AP (VP/AP (VBD+BE was)) (NP Mary))))
 (S (NP who) (VP+FIN (V+FIN saw) (NP the man)))
 (S (Q (NP+WH (Det+WH which) (N man)) (VP+FIN (V+FIN drove) (NP the car))))
 (S (NP who) (VP (V is) (NP (N it)) (R (NP+R-WH+PRO that) (S/NP (NP Mary) (VP/NP (V likes))))))
-failure
+(S (NP (N John)) (VP (V (BE is) (AP (A easy))) (barVP (barVP (barVPword to) (VP (V please))) (barVPConj (Conj and) (barVP (barVPword to) (VP (V love)))))))
 (S (NP (NP the man) (R (NP+R+WH+PRO who) (S/NP (S/NP (NP Mary) (VP/NP (V loves))) and (S/NP (NP (N Sally)) (VP/NP (V hates)))))) (VP (V computed) (NP (N my tax))))
 (S (NP I) (VP (V know) (NP a man) (R (NP+R+WH+PRO who) (S/NP (S/NP (NP (N Bill)) (VP/NP (V saw))) and (S/NP (NP Mary) (VP/NP (V liked)))))))
 (S (NP I) (VP (V know) (NP a man) (R (NP+R+WH+PRO who) (S/NP (VP+FIN (V+FIN saw) (NP (N Bill))) and (VP+FIN (V+FIN liked) (NP Mary))))))
 (S (NP I) (VP (V know) (NP a man) (R (NP+R+WH+PRO who) (S/NP (NP Mary) (VP/NP (VP/NP (V likes)) and (VP/NP (V hopes) (barVP/NP (barVPword will) (VP/NP (V win)))))))))
-failure
-(S (S/NP (NP I) (VP/NP (VP/NP (V wonder) (NP who) (VP+FIN (V+FIN saw) (NP (N Bill)))) and (VP/NP (V liked)))) (NP Mary))
-failure
-failure
-failure
-failure
+(S (NP I) (VP (V wonder) (R (NP+R+WH+PRO who) (S/NP (S/NP (NP (N Bill)) (VP/NP (V saw))) and (S/NP (NP Mary) (VP/NP (V liked)))))))
+(S (NP I) (VP (V wonder) (R (NP+R+WH+PRO who) (S/NP (VP+FIN (V+FIN saw) (NP (N Bill))) and (VP+FIN (V+FIN liked) (NP Mary))))))
+(S (NP I) (VP (V wonder) (R (NP+R+WH+PRO who) (S/NP (NP Mary) (VP/NP (VP/NP (V likes)) and (VP/NP (V hopes) (barVP/NP (barVPword will) (VP/NP (V win)))))))))
+(S (NP (NP (Det which) (N book)) (NPConj (Conj and) (NP (Det which) (N pencil)))) (VP (V did) (R (NP (N John)) (VP (V buy)))))
 failure
 failure
+failure
+(S (NP (NP (Det which) (N city)) (NPConj (Conj and) (NP (Det which) (N conference)))) (VP (V did) (R (NP (N Bill)) (VP (V go)))))
 failure
 failure
 (S (NP I) (VP (V had hoped) (barS (barSword that) (S (NP (N it)) (VP (V (WAS was) (Adj true)) (barS (barSword that) (S (NP (N Rosa Luxemburg)) (VP (V had (Adv actually) (V defected)) (PP (P to) (NP (NP (N Iceland)) (PP (P for) (NP (N many years)))))))))))))
 (S (S/NP (NP I) (VP/NP (V had hoped) (barS/NP (barSword that) (S/NP (NP (N it)) (VP/NP (V (WAS was) (Adj true)) (PP (P for) (NP (N many years))) (barS/NP (barSword that) (S/NP (NP (N Rosa Luxemburg)) (VP/NP (V had (Adv actually) (V (V defected) (AdvP (Adv to)))))))))))) (NP (N Iceland)))
-failure
+(S (NP I) (VP (V have wanted) (barVP (barVPword to) (VP (V meet) (NP (NP the man) (R (NP who) (VP (V spent) (R (NP (N (AP (A so much)) (N money))) (VP (V planning) (NP (Det the) (N assassination)) (PP (P of) (NP (N Kennedy)))))))) (PP (P for) (NP (N many years)))))))
 (S (NP I) (VP (V have wanted) (barVP (barVPword to) (VP (V meet) (PP (P for) (NP (NP (N many years)) (R (NP (NP the man) (R (NP who) (VP (V spent) (NP (N (AP (A so much)) (N money)))))) (VP (V planning) (NP (Det the) (N assassination)) (PP (P of) (NP (N Kennedy)))))))))))
-failure
+(S (NP the woman) (VP (V believed) (barS (barSword that) (S (NP the man) (VP (V was ill) (R (NP who) (VP was here)))))))
 (S (S/AP (NP the woman) (VP/AP (V believed) (barS/AP (barSword that) (S/AP (NP (NP the man) (R (NP who) (VP was here))) (VP/AP (VBD+BE was)))))) (AP (A ill)))
 (S (S/AP (NP (NP the woman) (R (NP who) (VP was here))) (VP/AP (V believed) (barS/AP (barSword that) (S/AP (NP the man) (VP/AP (VBD+BE was)))))) (AP (A ill)))
-failure
+(S (NP (Det a) (N woman)) (VP (V hit) (NP (Det a) (N girl)) (R (NP who) (VP (V (WAS was) (Adj (A pregnant)))))))
 (S (NP (Det a) (N woman)) (VP (V hit) (NP (Det a) (N (AP (A pregnant)) (N girl)))))
 (S (NP (Det a) (N (AP (A pregnant)) (N woman))) (VP (V hit) (NP (Det a) (N girl))))
-failure
-failure
+(S (S (NP a man) (VP (V (AdvP (Adv just)) (V (V came) (AdvP (Adv in)))))) (SConj (Conj and) (S (NP (Det a) (N woman)) (VP (V (V went) (AdvP (Adv out))) (R (NP who) (VP (V (WAS were) (Adj (A similar))) (PP (P in) (NP (N all kinds of ways)))))))))
+(S (S (NP a man) (VP (V (AdvP (Adv just)) (V (V came) (AdvP (Adv in)))))) (SConj (Conj and) (S (NP (Det a) (N woman)) (VP (V went) (Q (NP+WH (Adv out) (NP+WH who)) (Q/NP (V hate) (NP (N each other)) (VP/NP (V (AdvP (Adv like poison) (Conj and) (Adv always)) (V have)))))))))
 (S (S/NP (S/NP (NP (N Jack)) (VP/NP (V may be) (NP/NP t))) and (S/NP (NP (N Tony)) (VP/NP (V certainly is) (NP/NP t)))) (NP (Det a) (N werewolf)))
 failure
 (S (S/AP (S/AP (NP (N Tony)) (VP/AP (V used to be) (AP/AP t))) (Conj and) (S/AP (NP (N George)) (VP/AP (V still is) (AP/AP t)))) (AP (Adv very) (A suspicious)))
 (S (S/barS (S/barS (NP Harry) (VP/barS (V has claimed) (barS/barS t))) (Conj but) (S/barS (NP I) (VP/barS (V do not believe) (barS/barS t)))) (barS (barS/NP (barSword that) (S/NP (NP (N Melvin)) (VP/NP (V is)))) (NP (Det a) (N Communist))))
 failure
 failure
-failure
+(S (NP I) (VP (V have been (A wondering)) (barS (barS/S (barSword whether) (S/S t (Conj but) (VP/S (V (AdvP (Adv wouldn't)) (V (AdvP (Adv positively)) (V want to (V state)))) (barS/S (barSword that) (S/S t))))) (S (NP (N your theory)) (VP (V (BE is) (AP (A correct))))))))
 (S (S/NP (S/NP (NP (N John)) (VP/NP (V hummed) (NP/NP t))) and (S/NP (NP Mary) (VP/NP (V sang) (NP/NP t)))) (NP (Det the) (N (AP (A same)) (N tune))))
 failure
 failure
