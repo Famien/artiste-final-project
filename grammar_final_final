@@ -30,6 +30,8 @@
 
 1 V V+AUX V
 1 V+AUX did
+1 VP/VP V+AUX VP/VP
+1 VP V+AUX VP
 #########
 
 # FAMIEN
