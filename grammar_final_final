@@ -20,6 +20,9 @@
 1 S/PP S/PP Conj S/PP
 1 S/VP S/VP Conj S/VP
 1 S/NP S/NP Conj S/NP
+
+1 VP V PP
+1 VP/NP V PP/NP
 #########
 
 # FAMIEN
@@ -310,6 +313,7 @@
 1 VP/NP V NP PP/NP
 1 NP/NP NP/NP PP
 1 NP/NP NP PP/NP
+
 
 # D(PP, G) (18)
 1 S/PP NP/PP VP
