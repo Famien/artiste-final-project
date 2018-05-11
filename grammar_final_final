@@ -120,13 +120,8 @@
 1 	S/AP 	S/AP Conj S/AP
 1 	S/R 	S/R Conj S/R
 1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
-
-# ADDED - not in Gazdar at all (handles "Bill actually did t")
-#1 	S/VP 	NP barVP/VP
-#1 	VP/AP 	V 	AP/AP   # todo: check this again
-#1	VP/VP 	V 	VP/VP   # todo: check this again
-#1 	S/S 	S barS/S
-#1 	S 		PP barS
+ 
+1 	NP 	to VP  # infinitive phrase
 
 # D(barS, G) (added)
 1 S/barS NP/barS barS
