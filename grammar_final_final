@@ -51,6 +51,8 @@
 
 1 	NP 	to VP  # infinitive phrase
 
+1 V V to
+
 #########
 
 # FAMIEN
@@ -660,7 +662,6 @@
 1 V had V
 
 # to - probably need to improve
-1 Adv to
 1 N+PRO to
 1 P to
 #1 Conj to
