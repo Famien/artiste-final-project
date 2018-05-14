@@ -13,6 +13,10 @@
 1 VP/NP V
 1 VP/S V
 1 VP/barS V
+1 R NP+WH VP
+1 VP VP GER
+1 GER GER NP
+1 GER planning
 
 1 NP+WH Det+WH N
 1 NP+WH NP+WH and NP+WH
@@ -439,7 +443,7 @@
 1 NP/R NP R/R
 1 S/R NP/R VP
 1 S S/R R
-1 R NP VP
+# 1 R NP VP
 1 S/NP S/NP and S/NP
 1 VP/NP VP/NP and VP/NP
 ########
