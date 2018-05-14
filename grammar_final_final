@@ -57,7 +57,9 @@
 
 1 	NP 	to VP  # infinitive phrase
 
+# some added to rules to fix eliminating to from Adv, P, etc
 1 V V to
+1 PP to NP
 
 #########
 
@@ -669,7 +671,7 @@
 
 # to - probably need to improve
 1 N+PRO to
-1 P to
+#1 P to
 #1 Conj to
 
 # what
