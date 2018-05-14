@@ -25,6 +25,3 @@ failure
 failure
 (S (Q (NP+WH (NP+WH (Det+WH which) (N city)) and (NP+WH (Adv to) (NP+WH (Det+WH which) (N conference)))) (Q/NP (V+DO did) (NP (N Bill)) (VP/NP (V (V go) (AdvP (Adv to)))))))
 (S (Q (PP+WH (P to) (NP+WH (NP+WH (Det+WH which) (N city)) and (NP+WH (Det+WH which) (N conference)))) (Q/PP (VBD+BE did) (NP (N Bill)) (VP/PP (V (V go) (AdvP (Adv to)))))))
-failure
-(S (S (NP (N John)) (VP (V offered))) (SConj (Conj and) (S (NP Harry) (VP (V gave) (NP (N Sally)) (NP (Det a) (N Cadillac))))))
-failure
