@@ -13,9 +13,16 @@
 1 VP/NP V
 1 VP/S V
 1 VP/barS V
+1 R NP+WH VP
+1 VP VP GER
+1 GER GER NP
+1 GER planning
+1 R S/NP
 
+1 NP+WH to Det+WH N
 1 NP+WH Det+WH N
-1 NP+WH NP+WH and NP+WH
+1 NP+WH Det+WH N and Det+WH N
+1 NP+WH to Det+WH N and to Det+WH N
 
 1 S/PP S/PP Conj S/PP
 1 S/VP S/VP Conj S/VP
@@ -50,6 +57,20 @@
 1 VP VP Q
 
 1 	NP 	to VP  # infinitive phrase
+
+# some added to rules to fix eliminating to from Adv, P, etc
+1 V V to
+1 PP to NP
+
+# added Vocab
+1 Adv often
+1 N day
+1 N whose friends
+1 Adv over
+1 N FBI
+1 V handed
+
+1 NP that day
 
 #########
 
@@ -306,6 +327,7 @@
 1 	A 	down
 1 	barSword 	if
 1 	NP+WH 	where
+1 	Conj 	than
 
 ####
 ### ALEJANDRO
@@ -439,7 +461,7 @@
 1 NP/R NP R/R
 1 S/R NP/R VP
 1 S S/R R
-1 R NP VP
+# 1 R NP VP
 1 S/NP S/NP and S/NP
 1 VP/NP VP/NP and VP/NP
 ########
@@ -660,9 +682,8 @@
 1 V had V
 
 # to - probably need to improve
-1 Adv to
 1 N+PRO to
-1 P to
+#1 P to
 #1 Conj to
 
 # what
