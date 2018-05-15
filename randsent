@@ -1,0 +1,136 @@
+#!/usr/bin/env python2
+
+import argparse
+import random
+
+# Parse arguments.  You should not need to modify this.
+parser = argparse.ArgumentParser()
+parser.add_argument("grammar", help="path to grammar file")
+parser.add_argument("count", type=int, help="number of sentences to generate", nargs='?', default=1)
+parser.add_argument("-t", "--tree", action='store_true', help="pretty-print tree form instead of printing sentence")
+parser.add_argument("--seed", type=int, default=0, help="RNG seed")
+args = parser.parse_args()
+
+# Create a random generator.
+rng = random.Random(args.seed)
+
+'''
+  helper functions
+'''
+
+'''
+  takes a string (line) and returns a list of the line
+  split by whitespace, omitting everything after a '#' is encountered
+'''
+def strip_comments(line):
+  line_split = line.split()
+  max_index = 0
+  if len(line_split) == 0:
+    return line_split
+  for i in range(len(line_split)):
+    char = line_split[i][0]
+    if char == "#":
+      max_index = i
+      break
+    max_index += 1
+  return line_split[0:max_index]
+
+'''
+  takes a symbol and a grammar object and recursively expands the symbol into 
+  a string of all non-terminals, randomly selecting rules to expand when encountered
+'''
+def rand_expand_tree(start_symbol, grammar):
+  rhss = []
+  for rhs_weight in grammar[start_symbol]:
+    rhss.append(rhs_weight)
+  
+  rule = get_random_rule(rhss)
+  
+  sentence = "(" + start_symbol
+  for symbol in rule:
+    if symbol not in grammar:
+      #symbol is a terminal
+      sentence += " "
+      sentence += symbol
+    else:
+      sentence += rand_expand_tree(symbol, grammar)  
+  return sentence + ")"
+
+def rand_expand(start_symbol, grammar):
+  rhss = []
+  for rhs_weight in grammar[start_symbol]:
+    rhss.append(rhs_weight)
+  
+  rule = get_random_rule(rhss)
+  
+  sentence = ""
+  for symbol in rule:
+    if symbol not in grammar:
+      #symbol is a terminal
+      sentence += " "
+      sentence += symbol
+    else:
+      sentence += rand_expand(symbol, grammar)  
+  return sentence
+'''
+  given a list of rules and weights [(rhs1, weight1), (rhs2, weight2)...(rhsn, weightn)]
+  returns a rule chosen probabiisticaly based on its weight
+
+'''
+def get_random_rule(rhss):
+  total_weight = 0.0
+  for _, weight in rhss:
+    
+    total_weight += float(weight)
+  
+  ranges = []
+  
+  cumlt_weight = 0
+  ''' 
+  create intervals (all the way up to 1.0) based on the relative weight of each rule, then pick a
+  a random num between 0 and 1, and pick the first index interval which is bigger than it
+  '''
+  for rule, weight in rhss:
+    rel_weight = (float(weight)/total_weight) + cumlt_weight
+    ranges.append(rel_weight)
+    cumlt_weight = rel_weight
+  
+  random_index_picker = random.random()
+  for index in range(len(ranges)):
+    if ranges[index] >= random_index_picker:
+      return rhss[index][0]
+  
+  rule_index = random.randint(0,len(rhss)-1)
+# Here's how to access the args.  (You won't print them in your actual program.)
+#print 'path to grammar file:', args.grammar
+#print 'count:', args.count
+#print 'print tree?', args.tree
+#print 'RNG seed:', args.seed
+
+#random.seed(args.seed)
+# Print out the grammar.  You'll replace the loop body.
+grammar = {}
+with open(args.grammar, 'r') as grammar_file:
+  for line in grammar_file:
+    #line = strip_comments(line)
+    line_split = strip_comments(line)
+    if len(line_split) ==0: # comment line
+      continue
+    weight = line_split[0]
+    lhs = line_split[1]
+    rhs = line_split[2:]
+    
+    if lhs in grammar.keys():
+      grammar[lhs].append((rhs, weight))
+    else:
+      grammar[lhs] = [(rhs, weight)]
+    #print lhs, " -> ", rhs
+#root = grammar["START"][0][0][0]
+
+for i in range(args.count):
+  if args.tree:
+    sentence = rand_expand_tree("S", grammar)
+  else:
+    sentence = rand_expand("S", grammar)
+  print sentence
+
