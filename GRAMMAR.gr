@@ -1,0 +1,859 @@
+## NEW ##
+1 VP V R
+1 VP V
+1 VBD+BE did
+1 PP+WH P NP+WH
+1 PP+WH PP+WH Conj PP+WH
+1 Q PP+WH Q/PP
+1 NP/PP Det N
+1 NP/VP Det N
+1 NP/S Det N
+1 NP/barS Det N
+1 VP/PP V
+1 VP/NP V
+1 VP/S V
+1 VP/barS V
+1 R NP+WH VP
+1 VP VP GER
+1 GER GER NP
+1 GER planning
+1 R S/NP
+
+1 NP+WH Det+WH N
+1 NP+WH NP+WH Conj NP+WH
+
+1 PP+WH P NP+WH
+1 PP+WH to NP+WH
+
+1 S/PP S/PP Conj S/PP
+1 S/VP S/VP Conj S/VP
+
+1 VP/NP V+B S/NP
+1 Q NP+WH Q/NP
+
+1 S/NP S/NP Conj S/NP
+1 S/NP S/NP , and S/NP , NP
+1 S/NP NP V+TRANS t
+1 V+TRANS gave
+1 V+TRANS offered
+
+1 VP V PP
+1 VP/NP V PP/NP
+
+1 V V+AUX V
+1 V+AUX did
+1 VP/VP V+AUX VP/VP
+1 VP V+AUX VP
+1 V+AUX AdvP V+AUX
+
+1 S S/S S
+1 S/S S SConj/S
+1 SConj/S Conj S/S
+1 Conj when #subordinate
+1 Conj why #subordinate
+
+1 VP V NP NP
+
+1 S/NP NP V NP NP/NP
+1 NP+WH what
+1 Q/NP SQ
+1 SQ V PP
+1 Q AdvP Q
+1 VP VP Q
+
+1 	NP 	to VP  # infinitive phrase
+
+# some added to rules to fix eliminating to from Adv, P, etc
+1 PP to NP
+
+# added Vocab
+1 Adv often
+1 N day
+1 N whose friends
+1 Adv over
+1 N FBI
+1 V handed
+
+1 NP that day
+
+1 N records
+1 N Sue
+1 NP+R+WH+PRO whose N
+1 NP+R+WH+PRO NP+R+WH+PRO and NP+R+WH+PRO
+
+#########
+
+# FAMIEN
+1 S Q
+###
+
+# sentences (36) famien 
+1 Q/NP V+DO NP VP/NP
+
+1 VP/NP V+B SBAR
+
+1 V+DO did
+
+1 NP you
+
+1 V+B think
+
+
+1 Q/PP VBD+BE NP VP/PP
+1 VBD+BE was
+1 VP/PP VBN
+1 VBN seen
+1 PP+WH IN NP+WH
+1 IN in
+
+1 Q/AdvP MD NP VP/AdvP
+
+
+1 AdvP+WH WRB Adv
+1 WRB how
+1 Adv slowly
+
+1 NP PRP
+1 PRP he
+1 PRP she
+
+1 VP VBD+BE VBG
+1 VBG driving
+1 MD would
+1 MD did
+1 MD could
+1 V+B say
+
+1 AP+WH WRB A
+1 Q/AP VP/AP NP
+1 VP/AP VBD+BE
+
+1 S/AdvP NP VP/AdvP
+
+1 VP/AdvP V+B S/AdvP
+
+1 VP/AdvP VBD+BE VBG
+
+1 S/AdvP NP VP/AdvP
+ 
+###
+
+1 N car
+1 AP+WH how 
+####
+
+## YANG
+
+# sentences 58, 81, 82
+
+1 	S/S 	S/S Conj S/S
+1 	S/barS 	S/barS Conj S/barS
+1 	S/VP 	S/VP Conj S/VP
+1 	S/AP 	S/AP Conj S/AP
+1 	S/R 	S/R Conj S/R
+#1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
+
+# D(barS, G) (added)
+1 S/barS NP/barS barS
+1 S/barS NP VP/barS
+1 VP/barS V barVP/barS
+1 VP/barS V NP/barS
+1 PP/barS P NP/barS
+1 barS/barS barSword S/barS
+1 VP/barS V barS/barS
+1 barVP/barS barVPword VP/barS
+1 VP/barS V NP/barS PP
+1 VP/barS V NP PP/barS
+1 NP/barS NP/barS PP
+1 NP/barS NP PP/barS
+
+# D(AP, G) (added)
+1 S/AP NP/AP AP
+1 S/AP NP VP/AP
+1 VP/AP V barVP/AP
+1 VP/AP V NP/AP
+1 PP/AP P NP/AP
+1 barS/AP barSword S/AP
+1 VP/AP V barS/AP
+1 barVP/AP barVPword VP/AP
+1 VP/AP V NP/AP PP
+1 VP/AP V NP PP/AP
+1 NP/AP NP/AP PP
+1 NP/AP NP PP/AP
+
+# D(R, G) (added)
+1 S/R NP/R R
+1 S/R NP R/R
+1 VP/R V barVP/R
+1 VP/R V NP/R
+1 PP/R P NP/R
+1 barS/R barSword S/R
+1 VP/R V barS/R
+1 barVP/R barVPword VP/R
+1 VP/R V NP/R PP
+1 VP/R V NP PP/R
+1 NP/R NP/R PP
+1 NP/R NP PP/R
+
+# adding AP to rule (76) rightward displacement
+
+1	barS barS/barS AP
+1 	barS barS/AP AP
+1 	S 	S/S AP
+1 	S 	S/AP AP
+
+1 	AP/AP 	t
+
+1 	NP+R-WH+PRO	that   # confirm??
+
+1 	V 	keeps
+1 	V 	sleeps
+1 	V	made
+1 	VP 	sleeps
+1 	VP 	has been stolen  
+
+1 	V 	hummed
+1 	V 	sang
+1 	V 	looked
+1 	V 	gave
+1 	V 	presented
+1 	V 	eat
+1 	V 	has claimed
+1 	V 	do not believe
+1 	VP+FIN 	looked AP
+
+1 	V	may be
+1 	V 	certainly is
+1 	V 	used to be
+1 	V 	still is
+1 	V	said
+1 	V 	like
+1 	V 	visit    
+1 	V 	have been A   #todo: change this!
+
+1 	V 	please
+1 	V 	love
+1 	V 	loves
+1 	V 	hates
+1	V 	computed
+1 	V 	buy
+1 	V 	put
+1 	V 	go
+
+1 	Conj 	but
+
+1 	barVPword 	he would         # todo: change this
+1 	barVPword 	actually did
+1 	barSword 	did
+
+1 	Det	the
+1 	Det a
+1 	Det which
+1 	Adv remarkably
+1 	Adv very
+1 	A 	similar
+1 	A 	same
+1 	A 	equal
+1 	A 	raw
+1 	A 	suspicious
+1 	A 	new
+1 	A 	wondering
+1 	A 	correct
+1 	A 	easy
+
+1 	N 	Joan
+1 	N 	Fred
+1	N 	Jack
+1 	N 	Tony
+1 	N 	Tom
+1 	N 	Bill
+1 	N 	George
+1 	N 	Harry
+1 	N 	Melvin
+1 	N 	kennel
+1 	N 	drugs
+1	N 	books
+1 	N 	tune
+1 	N 	volumes
+1 	N 	werewolf
+1 	N 	eggplant
+1	N 	Communist
+1 	N 	he
+1 	N 	places
+1 	N 	Sally
+1 	N 	my tax
+1 	N 	book
+1 	N 	pencil
+1 	N 	table
+1 	N 	flower pot
+1 	N 	keys
+1	N 	city
+1 	N 	conference
+1 	N 	friends
+1 	N 	letter
+1 	N 	fool
+
+1 	NP 	N
+1 	NP 	Det N
+1 	N 	AP N
+1 	AP 	A
+1 	AP 	Adv A
+
+1 	P 	at
+1	P 	on
+1 	P 	under
+
+# bad sentences vocab
+1 	N 	fact
+1 	N 	exam
+1	N 	Sandy
+1 	N 	horses
+1 	N 	cows
+1 	N 	Pete
+1 	N 	Cadillac
+1 	N 	Seymour
+1 	N 	virgin
+
+1 	V 	come
+1 	V 	arrange
+1 	V 	support
+1 	V 	supported
+1 	V 	surprised
+1 	V 	passes
+1 	V 	talked
+1 	V 	asked
+1	V 	find
+1 	V 	bought
+1 	V 	finds
+1	V 	told
+1 	V 	showed
+1 	V 	matters
+1 	V 	offered
+
+1 	A 	more
+1	A 	hard
+1	A 	dishonest
+1 	A 	down
+1 	barSword 	if
+1 	NP+WH 	where
+1 	Conj 	than
+
+####
+### ALEJANDRO
+
+# G (16)
+1 S NP VP
+1 VP V barVP
+1 VP V NP
+1 PP P NP
+1 barS barSword S
+1 VP V barS
+1 barVP barVPword VP
+1 VP V NP PP
+1 NP NP PP
+
+# D(NP, G) (17)
+1 S/NP NP/NP VP
+1 S/NP NP VP/NP
+1 VP/NP V barVP/NP
+1 VP/NP V NP/NP
+1 PP/NP P NP/NP
+1 barS/NP barSword S/NP
+1 VP/NP V barS/NP
+1 barVP/NP barVPword VP/NP
+1 VP/NP V NP/NP PP
+1 VP/NP V NP PP/NP
+1 NP/NP NP/NP PP
+1 NP/NP NP PP/NP
+
+
+# D(PP, G) (18)
+1 S/PP NP/PP VP
+1 S/PP NP VP/PP
+1 VP/PP V barVP/PP
+1 VP/PP V NP/PP
+1 PP/PP P NP/PP
+1 barS/PP barSword S/PP
+1 VP/PP V barS/PP
+1 barVP/PP barVPword VP/PP
+1 VP/PP V NP/PP PP
+1 VP/PP V NP PP/PP
+1 NP/PP NP/PP PP
+1 NP/PP NP PP/PP
+
+# D(VP, G) (added)
+1 S/VP NP/VP VP
+1 S/VP NP VP/VP
+1 VP/VP V barVP/VP
+1 VP/VP V NP/VP
+1 PP/VP P NP/VP
+1 barS/VP barSword S/VP
+1 VP/VP V barS/VP
+1 barVP/VP barVPword VP/VP
+1 VP/VP V NP/VP PP
+1 VP/VP V NP PP/VP
+1 NP/VP NP/VP PP
+1 NP/VP NP PP/VP
+
+# D(AP, G) (added)
+1 S/AP NP/AP VP
+1 S/AP NP VP/AP
+1 VP/AP V barVP/AP
+1 VP/AP V NP/AP
+1 PP/AP P NP/AP
+1 barS/AP barSword S/AP
+1 VP/AP V barS/AP
+1 barVP/AP barVPword VP/AP
+1 VP/AP V NP/AP PP
+1 VP/AP V NP PP/AP
+1 NP/AP NP/AP PP
+1 NP/AP NP PP/AP
+
+# important edits (since adjectives aren't fully supported)
+1 AP/AP t
+1 VP/AP VP/AP AP
+1 VP/AP V AP/AP
+
+# rule (24)
+1 NP NP R
+
+# rules (25) and (26)
+1 R NP+R+WH+PRO S/NP
+1 R NP+R-WH+PRO S/NP
+1 R PP+R+WH+PRO S/PP
+
+# rules (27) and (28)
+1 NP+R+WH+PRO who
+1 NP-R+WH+PRO who
+1 NP+WH+PRO who
+1 NP+R-WH+PRO that
+
+# rule (33)
+1 VP+FIN+AUX V+FIN+AUX AP
+
+# rule (35)
+1 Q NP+WH Q/NP 
+1 Q PP+WH Q/PP 
+1 Q AP+WH Q/AP 
+1 Q AdvP+WH Q/AdvP 
+
+#1 Q/AdvP AdvP Q
+
+# straight from a tree
+1 Q/NP V NP VP/NP
+
+# rule (40)
+1 Q NP+WH Q/NP 
+1 barQ NP+WH S/NP 
+1 R NP+WH+PRO S/NP
+1 R NP-WH+PRO S/NP
+1 S NP S/NP
+1 VP/NP V barS/NP
+1 VP/NP V NP barS/NP
+1 VP/NP V PP barS/NP
+1 R NP+R+WH+PRO S/NP
+
+# rule (41)
+1 Q NP+WH VP+FIN 
+1 barQ NP+WH VP+FIN 
+1 R NP+R+WH+PRO VP+FIN
+1 R NP+R-WH+PRO VP+FIN
+1 S NP VP+FIN
+1 VP/NP V VP+FIN
+1 VP/NP V NP VP+FIN
+1 VP/NP V PP VP+FIN
+
+# rule (50)
+1 VP V NP R
+
+# These follow from trees/rules/metarules
+1 NP/R NP R/R
+1 S/R NP/R VP
+1 S S/R R
+# 1 R NP VP
+#1 S/NP S/NP and S/NP
+1 VP/NP VP/NP and VP/NP
+########
+
+# additional rules (look to generalize)
+1 PP+R+WH+PRO P NP+R+WH+PRO
+1 VP/PP V PP/PP
+1 AP A
+1 NP+WH Det+WH N
+1 VP+FIN V+FIN NP
+1 V were V+Passive #passive transform
+1 VP V PP
+1 NP N
+1 VP/NP V
+1 AdvP Adv
+1 AdvP Adv Conj Adv
+1 V AdvP V
+1 V V AdvP
+1 N AP N
+1 NP Det N
+1 AP Adv A
+
+#HACK
+#1 VP/AdvP V AdvP/AdvP
+#1 VP/AdvP AdvP/AdvP V
+1 AdvP/AdvP t # this follows from other rule
+####
+
+# neatify
+1 barVPword to
+1 barVPword will
+1 barSword that
+1 barSword NP+WH
+1 barSword when
+1 barSword why
+1 barSword whether
+
+# Vocab
+1 NP the man
+1 NP Fido
+1 V chased
+1 NP the kennel
+1 P in
+1 NP+R+WH+PRO which
+1 V tends
+1 V sleep
+1 V+FIN+AUX is
+1 A stupid
+1 NP Kim
+1 NP+WH who
+1 V+FIN saw
+1 NP the man
+1 N man
+1 Det the
+1 Det+WH which
+1 N man
+1 V+FIN drove
+1 NP the car
+1 VP+FIN chased Fido
+1 VP returned
+1 NP I
+1 V think
+1 NP the woman
+1 V believed
+1 V was ill
+1 NP who
+1 V was there
+1 NP Harry
+1 V caught
+1 NP Mary
+1 V killed
+1 NP the rabid dog
+1 VP was here
+1 NP different teams
+1 Conj and
+1 Conj or
+1 V beat
+1 NP the Red Sox
+1 V+Passive beaten
+1 P by
+1 NP the Giants
+1 NP the Dodgers
+1 A suspicious
+1 AP+WH how
+1 AdvP+WH how
+1 V likes
+1 N Mary
+1 N it
+1 V is
+1 N John
+1 N I
+1 V know
+1 NP a man
+1 N Bill
+1 V+FIN liked
+1 V liked
+1 V saw
+1 V hopes
+1 V win
+1 V wonder
+1 V have wanted
+1 N Rosa Luxemburg
+1 N many years
+1 V happened
+1 P for
+1 Adv exactly
+1 V had hoped
+1 V WAS Adj
+1 Adj true
+1 V defected
+1 N Iceland
+1 Adv actually
+1 V meet
+1 Det the
+1 A so much
+1 N money
+1 V planning
+1 N assassination
+1 N Kennedy
+1 P of
+1 V spent
+1 A ill
+1 V believed
+1 A pregnant
+1 V hit
+1 Det a
+1 N girl
+1 Adv in
+1 Adv out
+1 P in
+1 A similar
+1 N all kinds of ways
+1 Adv just
+1 V went
+1 V were
+1 V hate
+1 Adv like poison
+1 Adv always
+1 V have
+1 N each other
+1 N woman
+1 V came
+1 N man
+1 Adv always have
+1 Adv may
+1 V be
+1 V is
+1 Adv certainly
+1 N Jack
+1 N Tony
+1 N werewolf
+1 A raw
+1 N Tom
+1 V said
+1 V would
+1 N he
+1 N Bill
+1 Adv actually
+1 V did
+1 V eat
+1 N eggplant
+1 V used to V
+1 Adv still
+1 Adv very
+1 A suspicious
+1 Adv bar
+1 V DO V
+1 N Melvin
+1 N Communist
+1 V visit
+1 A new
+1 N places
+1 N he
+1 V left
+1 N me
+1 Conj whether
+1 Adv positively
+1 N your theory
+1 Adv wouldn't 
+1 Adv would bar
+1 N George
+1 V claimed
+1 V has V
+1 Conj but
+1 V believe
+1 V like
+1 V V to
+1 V CAN V
+1 V tell
+1 N you
+1 V have been V
+1 V wondering
+1 V want
+1 V state
+1 V want to V
+
+# can
+1 CAN can
+1 CAN can't
+
+# be, is
+1 V BE AP
+1 BE be
+1 BE being
+1 BE is
+
+# do
+1 DO do
+1 DO does
+1 DO doesn't
+
+# was
+1 WAS was
+1 WAS were
+
+# had
+1 V had Adv V
+1 V had
+1 V had V
+
+# to - probably need to improve
+1 N+PRO to
+#1 P to
+#1 Conj to
+
+# what
+1 NP+R+WH+PRO what
+1 NP-R+WH+PRO what
+1 NP+WH+PRO what
+
+# the wh noun-phrase (berkeley parser rules)
+1 NP+WH NP+R+WH+PRO
+1 NP+WH NP-R+WH+PRO
+1 NP+WH NP+WH+PRO
+1 NP+WH Adv NP+WH
+
+# typo fix
+1 Adj A
+
+# other quick fixes
+1	S/S t Conj VP/S
+1 barS/S barSword S/S
+1 VP/S V barS/S
+
+
+### End of hard-code .. starting scripts for meta-rules###
+
+# adding rule (23)
+
+1	VP/VP t
+1	barVP/barVP t
+1	barS/barS t
+1	PP/PP t
+1	NP/NP t
+1	R/R t
+1	S/S t
+
+
+# adding rule (32) subject-auxiliary inversion
+
+1 Q V+FIN+AUX NP AP 
+
+
+
+# adding rule (76) rightward displacement
+
+1 barS barS/barS barS
+1 barS barS/barVP barVP
+1 barS barS/VP VP
+1 barS barS/S S
+1 barS barS/NP NP
+1 barS barS/PP PP
+1 barS barS/AP AP
+1 S S/barS barS
+1 S S/barVP barVP
+1 S S/VP VP
+1 S S/S S
+1 S S/NP NP
+1 S S/PP PP
+1 S S/AP AP
+
+
+# adding rules (9) and (10) for surface constituent structure
+
+1 barSConj Conj barS
+1 barS barS barSConj
+1 SConj Conj S
+1 S S SConj
+1 PPConj Conj PP
+1 PP PP PPConj
+1 NPConj Conj NP
+1 NP NP NPConj
+1 VPConj Conj VP
+1 VP VP VPConj
+1 barVPConj Conj barVP
+1 barVP barVP barVPConj
+
+
+# adding rule (39) NP holes
+
+1 barS/NP that VP+FIN
+1 VP/NP V VP+FIN
+1 R NP+R+WH+PRO VP+FIN
+1 R NP+R-WH+PRO VP+FIN
+1 Q NP+WH VP+FIN 
+1 Q NP+WH VP+FIN
+1 barQ NP+WH VP+FIN
+1 R NP+WH+PRO VP+FIN
+1 R NP-WH+PRO VP+FIN
+1 S NP VP+FIN
+1 VP/NP V VP+FIN
+1 VP/NP V NP VP+FIN
+1 VP/NP V PP VP+FIN
+1 S/NP VP+FIN and S/NP
+1 S/NP S/NP and VP+FIN
+1 barS VP+FIN NP
+1 S VP+FIN NP
+
+
+# adding rule (23)
+
+1	VP/VP t
+1	NP/NP t
+1	R/R t
+1	PP/PP t
+1	barVP/barVP t
+
+
+# adding rule (32) subject-auxiliary inversion
+
+1 Q V+FIN+AUX NP AP
+
+# adding rule (76) rightward displacement
+
+1 S S/R R
+1 S S/PP PP
+1 S S/VP VP
+1 S S/NP NP
+1 S S/barVP barVP
+1 S S/S S
+1 S S/barS barS
+1 barS barS/R R
+1 barS barS/PP PP
+1 barS barS/VP VP
+1 barS barS/NP NP
+1 barS barS/barVP barVP
+1 barS barS/S S
+1 barS barS/barS barS
+
+# adding rules (9) and (10) for surface constituent structure
+
+1 VPConj Conj VP
+1 VP VP VPConj
+1 NPConj Conj NP
+1 NP NP NPConj
+1 RConj Conj R
+1 R R RConj
+1 PPConj Conj PP
+1 PP PP PPConj
+1 barVPConj Conj barVP
+1 barVP barVP barVPConj
+
+# adding rule (39) NP holes
+
+1 barS/NP that VP+FIN
+1 VP/NP V VP+FIN
+1 R NP+R+WH+PRO VP+FIN
+1 R NP+R-WH+PRO VP+FIN
+1 Q NP+WH VP+FIN 
+1 Q NP+WH VP+FIN 
+1 barQ NP+WH VP+FIN 
+1 R NP+WH+PRO VP+FIN
+1 R NP-WH+PRO VP+FIN
+1 S NP VP+FIN
+1 VP/NP V VP+FIN
+1 VP/NP V NP VP+FIN
+1 VP/NP V PP VP+FIN
+1 R NP+R+WH+PRO VP+FIN
+1 S/NP VP+FIN and S/NP
+1 S/NP S/NP and VP+FIN
+1 barS VP+FIN NP
+1 S VP+FIN NP
+1 S/NP VP+FIN and VP+FIN
+1 S/NP VP+FIN and VP+FIN
+1 S VP+FIN NP
+1 barS VP+FIN NP
