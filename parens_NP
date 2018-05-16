@@ -1,2 +1,0 @@
-(NP (NP the man) (R (NP+R-WH+PRO that) (S/NP (NP Fido) (VP/NP (V chased) (NP/NP t)))))
-(NP (NP the kennel) (R (PP+R+WH+PRO (P in) (NP+R+WH+PRO which)) (S/PP (NP Fido) (VP/PP (V tends) (notVP/PP to (VP/PP (V sleep) (PP/PP t)))))))

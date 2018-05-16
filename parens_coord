@@ -1,4 +1,0 @@
-(S (NP the Dodgers) (VP (VP (V beat) (NP the Red Sox)) (VPConj (Conj and) (VP (V were (V+Passive beaten)) (PP (P by) (NP the Giants))))))
-(S (S (NP the Dodgers) (VP (V beat) (NP the Red Sox))) (SConj (Conj and) (S (NP the Dodgers) (VP (V were (V+Passive beaten)) (PP (P by) (NP the Giants))))))
-(S (S (NP the Dodgers) (VP (V beat) (NP the Red Sox))) (SConj (Conj and) (S (NP the Giants) (VP (V beat) (NP the Dodgers)))))
-(S (NP different teams) (VP (VP (V beat) (NP the Red Sox)) (VPConj (Conj and) (VP (V were (V+Passive beaten)) (PP (P by) (NP the Giants))))))
