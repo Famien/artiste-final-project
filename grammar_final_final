@@ -19,10 +19,11 @@
 1 GER planning
 1 R S/NP
 
-1 NP+WH to Det+WH N
 1 NP+WH Det+WH N
-1 NP+WH Det+WH N and Det+WH N
-1 NP+WH to Det+WH N and to Det+WH N
+1 NP+WH NP+WH Conj NP+WH
+
+1 PP+WH P NP+WH
+1 PP+WH to NP+WH
 
 1 S/PP S/PP Conj S/PP
 1 S/VP S/VP Conj S/VP
