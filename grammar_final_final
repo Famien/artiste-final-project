@@ -32,6 +32,9 @@
 1 Q NP+WH Q/NP
 
 1 S/NP S/NP Conj S/NP
+1 S/NP NP V+TRANS and NP V+TRANS NP
+1 V+TRANS gave
+1 V+TRANS offered
 
 1 VP V PP
 1 VP/NP V PP/NP
