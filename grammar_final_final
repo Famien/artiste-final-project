@@ -60,7 +60,6 @@
 1 	NP 	to VP  # infinitive phrase
 
 # some added to rules to fix eliminating to from Adv, P, etc
-1 V V to
 1 PP to NP
 
 # added Vocab
