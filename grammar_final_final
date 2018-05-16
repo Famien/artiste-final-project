@@ -151,7 +151,7 @@
 1 	S/VP 	S/VP Conj S/VP
 1 	S/AP 	S/AP Conj S/AP
 1 	S/R 	S/R Conj S/R
-1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
+#1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
 
 # D(barS, G) (added)
 1 S/barS NP/barS barS
