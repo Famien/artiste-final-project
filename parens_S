@@ -1,4 +1,0 @@
-(S (NP (NP the man) (R (NP+R-WH+PRO that) (VP+FIN chased Fido))) (VP returned))
-(S (NP (NP the man) (R (NP+WH+PRO who) (S/NP (NP I) (VP/NP (V think) (VP+FIN chased Fido))))) (VP returned))
-(S (NP the woman) (VP (V believed) (notS that (S (S/R (NP/R (NP the man) (R/R t)) (VP was ill)) (R (NP who) (VP was here))))))
-(S (S/NP (S/NP (NP Harry) (VP/NP (V caught) (NP/NP t))) and (S/NP (NP Mary) (VP/NP (V killed) (NP/NP t)))) (NP the rabid dog))
