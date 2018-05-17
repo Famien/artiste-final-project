@@ -24,6 +24,10 @@
 
 1 PP+WH P NP+WH
 1 PP+WH to NP+WH
+1 PP+WH PP+WH and PP+WH
+1 Det that
+
+1 R PP+WH S/NP
 
 1 S/PP S/PP Conj S/PP
 1 S/VP S/VP Conj S/VP
