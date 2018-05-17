@@ -35,319 +35,6 @@
 1 S/VP S/VP Conj S/VP
 
 1 VP/NP V+B S/NP
-1 Q NP+WH Q/NP
-
-1 S/NP S/NP Conj S/NP
-1 S/NP S/NP , and S/NP , NP
-1 S/NP NP V+TRANS t
-1 V+TRANS gave
-1 V+TRANS offered
-
-1 VP V PP
-1 VP/NP V PP/NP
-
-1 V V+AUX V
-1 V+AUX did
-1 VP/VP V+AUX VP/VP
-1 VP V+AUX VP
-1 V+AUX AdvP V+AUX
-
-1 S S/S S
-1 S/S S SConj/S
-1 SConj/S Conj S/S
-1 Conj when #subordinate
-1 Conj why #subordinate
-
-1 VP V NP NP
-
-1 S/NP NP V NP NP/NP
-1 NP+WH what
-1 Q/NP SQ
-1 SQ V PP
-1 Q AdvP Q
-1 VP VP Q
-
-1 	NP 	to VP  # infinitive phrase
-
-# some added to rules to fix eliminating to from Adv, P, etc
-1 PP to NP
-
-# added Vocab
-1 Adv often
-1 N day
-1 N whose friends
-1 Adv over
-1 N FBI
-1 V handed
-1 N cats
-1 V addressed
-
-1 NP that day
-
-1 N records
-1 N Sue
-1 NP+R+WH+PRO NP+R+WH+PRO and NP+R+WH+PRO
-
-#########
-
-# FAMIEN
-1 S Q
-###
-
-# sentences (36) famien 
-1 Q/NP V+DO NP VP/NP
-
-1 VP/NP V+B SBAR
-
-1 V+DO did
-
-1 NP you
-
-1 V+B think
-
-
-1 Q/PP VBD+BE NP VP/PP
-1 VBD+BE was
-1 VP/PP VBN
-1 VBN seen
-1 PP+WH IN NP+WH
-1 IN in
-
-1 Q/AdvP MD NP VP/AdvP
-
-
-1 AdvP+WH WRB Adv
-1 WRB how
-1 Adv slowly
-
-1 NP PRP
-1 PRP he
-1 PRP she
-
-1 VP VBD+BE VBG
-1 VBG driving
-1 MD would
-1 MD did
-1 MD could
-1 V+B say
-
-1 AP+WH WRB A
-1 Q/AP VP/AP NP
-1 VP/AP VBD+BE
-
-1 S/AdvP NP VP/AdvP
-
-1 VP/AdvP V+B S/AdvP
-
-1 VP/AdvP VBD+BE VBG
-
-1 S/AdvP NP VP/AdvP
- 
-###
-
-1 N car
-1 AP+WH how 
-####
-
-## YANG
-
-# sentences 58, 81, 82
-
-1 	S/S 	S/S Conj S/S
-1 	S/barS 	S/barS Conj S/barS
-1 	S/VP 	S/VP Conj S/VP
-1 	S/AP 	S/AP Conj S/AP
-1 	S/R 	S/R Conj S/R
-#1 	S/NP 	S/NP Conj S/NP  # changed to general Conj instead of "and"
-
-# D(barS, G) (added)
-1 S/barS NP/barS barS
-1 S/barS NP VP/barS
-1 VP/barS V barVP/barS
-1 VP/barS V NP/barS
-1 PP/barS P NP/barS
-1 barS/barS barSword S/barS
-1 VP/barS V barS/barS
-1 barVP/barS barVPword VP/barS
-1 VP/barS V NP/barS PP
-1 VP/barS V NP PP/barS
-1 NP/barS NP/barS PP
-1 NP/barS NP PP/barS
-
-# D(AP, G) (added)
-1 S/AP NP/AP AP
-1 S/AP NP VP/AP
-1 VP/AP V barVP/AP
-1 VP/AP V NP/AP
-1 PP/AP P NP/AP
-1 barS/AP barSword S/AP
-1 VP/AP V barS/AP
-1 barVP/AP barVPword VP/AP
-1 VP/AP V NP/AP PP
-1 VP/AP V NP PP/AP
-1 NP/AP NP/AP PP
-1 NP/AP NP PP/AP
-
-# D(R, G) (added)
-1 S/R NP/R R
-1 S/R NP R/R
-1 VP/R V barVP/R
-1 VP/R V NP/R
-1 PP/R P NP/R
-1 barS/R barSword S/R
-1 VP/R V barS/R
-1 barVP/R barVPword VP/R
-1 VP/R V NP/R PP
-1 VP/R V NP PP/R
-1 NP/R NP/R PP
-1 NP/R NP PP/R
-
-# adding AP to rule (76) rightward displacement
-
-1	barS barS/barS AP
-1 	barS barS/AP AP
-1 	S 	S/S AP
-1 	S 	S/AP AP
-
-1 	AP/AP 	t
-
-1 	NP+R-WH+PRO	that   # confirm??
-
-1 	V 	keeps
-1 	V 	sleeps
-1 	V	made
-1 	VP 	sleeps
-1 	VP 	has been stolen  
-
-1 	V 	hummed
-1 	V 	sang
-1 	V 	looked
-1 	V 	gave
-1 	V 	presented
-1 	V 	eat
-1 	V 	has claimed
-1 	V 	do not believe
-1 	VP+FIN 	looked AP
-
-1 	V	may be
-1 	V 	certainly is
-1 	V 	used to be
-1 	V 	still is
-1 	V	said
-1 	V 	like
-1 	V 	visit    
-1 	V 	have been A   #todo: change this!
-
-1 	V 	please
-1 	V 	love
-1 	V 	loves
-1 	V 	hates
-1	V 	computed
-1 	V 	buy
-1 	V 	put
-1 	V 	go
-
-1 	Conj 	but
-
-1 	barVPword 	he would         # todo: change this
-1 	barVPword 	actually did
-1 	barSword 	did
-
-1 	Det	the
-1 	Det a
-1 	Det which
-1 	Adv remarkably
-1 	Adv very
-1 	A 	similar
-1 	A 	same
-1 	A 	equal
-1 	A 	raw
-1 	A 	suspicious
-1 	A 	new
-1 	A 	wondering
-1 	A 	correct
-1 	A 	easy
-
-1 	N 	Joan
-1 	N 	Fred
-1	N 	Jack
-1 	N 	Tony
-1 	N 	Tom
-1 	N 	Bill
-1 	N 	George
-1 	N 	Harry
-1 	N 	Melvin
-1 	N 	kennel
-1 	N 	drugs
-1	N 	books
-1 	N 	tune
-1 	N 	volumes
-1 	N 	werewolf
-1 	N 	eggplant
-1	N 	Communist
-1 	N 	he
-1 	N 	places
-1 	N 	Sally
-1 	N 	my tax
-1 	N 	book
-1 	N 	pencil
-1 	N 	table
-1 	N 	flower pot
-1 	N 	keys
-1	N 	city
-1 	N 	conference
-1 	N 	friends
-1 	N 	letter
-1 	N 	fool
-
-1 	NP 	N
-1 	NP 	Det N
-1 	N 	AP N
-1 	AP 	A
-1 	AP 	Adv A
-
-1 	P 	at
-1	P 	on
-1 	P 	under
-
-# bad sentences vocab
-1 	N 	fact
-1 	N 	exam
-1	N 	Sandy
-1 	N 	horses
-1 	N 	cows
-1 	N 	Pete
-1 	N 	Cadillac
-1 	N 	Seymour
-1 	N 	virgin
-
-1 	V 	come
-1 	V 	arrange
-1 	V 	support
-1 	V 	supported
-1 	V 	surprised
-1 	V 	passes
-1 	V 	talked
-1 	V 	asked
-1	V 	find
-1 	V 	bought
-1 	V 	finds
-1	V 	told
-1 	V 	showed
-1 	V 	matters
-1 	V 	offered
-
-1 	A 	more
-1	A 	hard
-1	A 	dishonest
-1 	A 	down
-1 	barSword 	if
-1 	NP+WH 	where
-1 	Conj 	than
-
-####
-### ALEJANDRO
-
 # G (16)
 1 S NP VP
 1 VP V barVP
@@ -416,6 +103,71 @@
 1 NP/AP NP/AP PP
 1 NP/AP NP PP/AP
 
+# D(barS, G) (added)
+1 S/barS NP/barS barS
+1 S/barS NP VP/barS
+1 VP/barS V barVP/barS
+1 VP/barS V NP/barS
+1 PP/barS P NP/barS
+1 barS/barS barSword S/barS
+1 VP/barS V barS/barS
+1 barVP/barS barVPword VP/barS
+1 VP/barS V NP/barS PP
+1 VP/barS V NP PP/barS
+1 NP/barS NP/barS PP
+1 NP/barS NP PP/barS
+
+# D(AP, G) (added)
+1 S/AP NP/AP AP
+1 S/AP NP VP/AP
+1 VP/AP V barVP/AP
+1 VP/AP V NP/AP
+1 PP/AP P NP/AP
+1 barS/AP barSword S/AP
+1 VP/AP V barS/AP
+1 barVP/AP barVPword VP/AP
+1 VP/AP V NP/AP PP
+1 VP/AP V NP PP/AP
+1 NP/AP NP/AP PP
+1 NP/AP NP PP/AP
+
+# D(R, G) (added)
+1 S/R NP/R R
+1 S/R NP R/R
+1 VP/R V barVP/R
+1 VP/R V NP/R
+1 PP/R P NP/R
+1 barS/R barSword S/R
+1 VP/R V barS/R
+1 barVP/R barVPword VP/R
+1 VP/R V NP/R PP
+1 VP/R V NP PP/R
+1 NP/R NP/R PP
+1 NP/R NP PP/R
+
+# sentences 58, 81, 82
+
+1 	S/S 	S/S Conj S/S
+1 	S/barS 	S/barS Conj S/barS
+1 	S/VP 	S/VP Conj S/VP
+1 	S/AP 	S/AP Conj S/AP
+1 	S/R 	S/R Conj S/R
+
+# adding AP to rule (76) rightward displacement
+
+1	barS barS/barS AP
+1 	barS barS/AP AP
+1 	S 	S/S AP
+1 	S 	S/AP AP
+
+1 	AP/AP 	t
+
+1 	NP 	N
+1 	NP 	Det N
+1 	N 	AP N
+1 	AP 	A
+1 	AP 	Adv A
+
 # important edits (since adjectives aren't fully supported)
 1 AP/AP t
 1 VP/AP VP/AP AP
@@ -443,8 +195,6 @@
 1 Q PP+WH Q/PP 
 1 Q AP+WH Q/AP 
 1 Q AdvP+WH Q/AdvP 
-
-#1 Q/AdvP AdvP Q
 
 # straight from a tree
 1 Q/NP V NP VP/NP
@@ -477,12 +227,9 @@
 1 NP/R NP R/R
 1 S/R NP/R VP
 1 S S/R R
-# 1 R NP VP
-#1 S/NP S/NP and S/NP
 1 VP/NP VP/NP and VP/NP
-########
 
-# additional rules (look to generalize)
+# additional rules 
 1 PP+R+WH+PRO P NP+R+WH+PRO
 1 VP/PP V PP/PP
 1 AP A
@@ -499,14 +246,114 @@
 1 N AP N
 1 NP Det N
 1 AP Adv A
+1 AdvP/AdvP t 
 
-#HACK
-#1 VP/AdvP V AdvP/AdvP
-#1 VP/AdvP AdvP/AdvP V
-1 AdvP/AdvP t # this follows from other rule
-####
+1 NP+R+WH+PRO NP+R+WH+PRO and NP+R+WH+PRO
 
-# neatify
+1 S Q
+
+# sentences (36) famien 
+1 Q/NP V+DO NP VP/NP
+
+1 VP/NP V+B SBAR
+
+1 V+DO did
+
+1 NP you
+
+1 V+B think
+
+
+1 Q/PP VBD+BE NP VP/PP
+1 VBD+BE was
+1 VP/PP VBN
+1 VBN seen
+1 PP+WH IN NP+WH
+1 IN in
+
+1 Q/AdvP MD NP VP/AdvP
+
+
+1 AdvP+WH WRB Adv
+1 WRB how
+1 Adv slowly
+
+1 NP PRP
+1 PRP he
+1 PRP she
+
+1 VP VBD+BE VBG
+1 VBG driving
+1 MD would
+1 MD did
+1 MD could
+1 V+B say
+
+1 AP+WH WRB A
+1 Q/AP VP/AP NP
+1 VP/AP VBD+BE
+
+1 S/AdvP NP VP/AdvP
+
+1 VP/AdvP V+B S/AdvP
+
+1 VP/AdvP VBD+BE VBG
+
+1 S/AdvP NP VP/AdvP
+
+1 Q NP+WH Q/NP
+
+1 S/NP S/NP Conj S/NP
+1 S/NP S/NP , and S/NP , NP
+1 S/NP NP V+TRANS t
+1 V+TRANS gave
+1 V+TRANS offered
+
+1 VP V PP
+1 VP/NP V PP/NP
+
+1 V V+AUX V
+1 V+AUX did
+1 VP/VP V+AUX VP/VP
+1 VP V+AUX VP
+1 V+AUX AdvP V+AUX
+
+1 S S/S S
+1 S/S S SConj/S
+1 SConj/S Conj S/S
+1 Conj when #subordinate
+1 Conj why #subordinate
+
+1 VP V NP NP
+
+1 S/NP NP V NP NP/NP
+1 NP+WH what
+1 Q/NP SQ
+1 SQ V PP
+1 Q AdvP Q
+1 VP VP Q
+
+1 	NP 	to VP  # infinitive phrase
+
+# some added to rules to fix eliminating to from Adv, P, etc
+1 PP to NP
+
+# added Vocab
+1 Adv often
+1 N day
+1 N whose friends
+1 Adv over
+1 N FBI
+1 V handed
+1 N cats
+1 V addressed
+
+1 NP that day
+
+1 N records
+1 N Sue
+
+# neatify, words before barVP and barS
 1 barVPword to
 1 barVPword will
 1 barSword that
@@ -674,6 +521,137 @@
 1 V state
 1 V want to V
 
+1 	NP+R-WH+PRO	that   
+
+1 	V 	keeps
+1 	V 	sleeps
+1 	V	made
+1 	VP 	sleeps
+1 	VP 	has been stolen  
+
+1 	V 	hummed
+1 	V 	sang
+1 	V 	looked
+1 	V 	gave
+1 	V 	presented
+1 	V 	eat
+1 	V 	has claimed
+1 	V 	do not believe
+1 	VP+FIN 	looked AP
+
+1 	V	may be
+1 	V 	certainly is
+1 	V 	used to be
+1 	V 	still is
+1 	V	said
+1 	V 	like
+1 	V 	visit    
+1 	V 	have been A
+
+1 	V 	please
+1 	V 	love
+1 	V 	loves
+1 	V 	hates
+1	V 	computed
+1 	V 	buy
+1 	V 	put
+1 	V 	go
+
+1 	Conj 	but
+
+1 	barVPword 	he would         
+1 	barVPword 	actually did
+1 	barSword 	did
+
+1 	Det	the
+1 	Det a
+1 	Det which
+1 	Adv remarkably
+1 	Adv very
+1 	A 	similar
+1 	A 	same
+1 	A 	equal
+1 	A 	raw
+1 	A 	suspicious
+1 	A 	new
+1 	A 	wondering
+1 	A 	correct
+1 	A 	easy
+
+1 	N 	Joan
+1 	N 	Fred
+1	N 	Jack
+1 	N 	Tony
+1 	N 	Tom
+1 	N 	Bill
+1 	N 	George
+1 	N 	Harry
+1 	N 	Melvin
+1 	N 	kennel
+1 	N 	drugs
+1	N 	books
+1 	N 	tune
+1 	N 	volumes
+1 	N 	werewolf
+1 	N 	eggplant
+1	N 	Communist
+1 	N 	he
+1 	N 	places
+1 	N 	Sally
+1 	N 	my tax
+1 	N 	book
+1 	N 	pencil
+1 	N 	table
+1 	N 	flower pot
+1 	N 	keys
+1	N 	city
+1 	N 	conference
+1 	N 	friends
+1 	N 	letter
+1 	N 	fool
+
+1 	P 	at
+1	P 	on
+1 	P 	under
+
+# bad sentences vocab
+1 	N 	fact
+1 	N 	exam
+1	N 	Sandy
+1 	N 	horses
+1 	N 	cows
+1 	N 	Pete
+1 	N 	Cadillac
+1 	N 	Seymour
+1 	N 	virgin
+
+1 	V 	come
+1 	V 	arrange
+1 	V 	support
+1 	V 	supported
+1 	V 	surprised
+1 	V 	passes
+1 	V 	talked
+1 	V 	asked
+1	V 	find
+1 	V 	bought
+1 	V 	finds
+1	V 	told
+1 	V 	showed
+1 	V 	matters
+1 	V 	offered
+
+1 	A 	more
+1	A 	hard
+1	A 	dishonest
+1 	A 	down
+1 	barSword 	if
+1 	NP+WH 	where
+1 	Conj 	than
+
+1 N car
+1 AP+WH how 
+
 # can
 1 CAN can
 1 CAN can't
@@ -714,16 +692,13 @@
 1 NP+WH NP+WH+PRO
 1 NP+WH Adv NP+WH
 
-# typo fix
 1 Adj A
-
-# other quick fixes
 1	S/S t Conj VP/S
 1 barS/S barSword S/S
 1 VP/S V barS/S
 
 
-### End of hard-code .. starting scripts for meta-rules###
+### starting scripts for Gazdar meta-rules###
 
 # adding rule (23)
 
