@@ -1,0 +1,140 @@
+(S (S/VP (NP/VP (Det the)
+                (N man))
+         (VP (V chased)
+             (NP Fido)))
+   (VP returned))
+(S (NP (NP the
+           man)
+       (R (S/NP (NP I)
+                (VP/NP (V think)
+                       (barS/NP that
+                                (VP+FIN chased
+                                        Fido))))))
+   (VP returned))
+(S (NP (NP the
+           man)
+       (R (NP+WH+PRO who)
+          (S/NP (NP I)
+                (VP/NP (V think)
+                       (barS/NP that
+                                (VP+FIN chased
+                                        Fido))))))
+   (VP returned))
+(S (Q (NP+WH who)
+      (Q/NP (V+DO did)
+            (NP you)
+            (VP/NP (V believe)
+                   (barS/NP (barSword that)
+                            (S/NP (NP/NP t)
+                                  (VP (V came))))))))
+(S (Q (NP+WH who)
+      (Q/NP (V+DO did)
+            (NP you)
+            (VP/NP (V wonder)
+                   (barS/NP (barSword whether)
+                            (S/NP (NP/NP t)
+                                  (VP (V came))))))))
+(S (Q (NP+WH who)
+      (Q/NP (V+DO did)
+            (NP you)
+            (VP/NP (V wonder)
+                   (barS/NP (barSword if)
+                            (S/NP (NP/NP t)
+                                  (VP (V came))))))))
+failure
+failure
+failure
+failure
+failure
+failure
+failure
+(S (NP (NP (Det the)
+           (N table))
+       (R (NP+R-WH+PRO that)
+          (S/NP (NP I)
+                (VP/NP (V put)
+                       (NP Kim)
+                       (PP/NP (P on)
+                              (NP/NP t))))))
+   (VP (V surprised)
+       (NP Kim)))
+(S (NP (NP (Det the)
+           (N exam))
+       (NPConj (Conj whether)
+               (NP Kim)))
+   (VP (V passes)
+       (R (S/NP (NP/NP t)
+                (VP (V matters)
+                    (PP to
+                        (NP (N Sandy))))))))
+(S (NP (N John))
+   (VP (V (BE is)
+          (AP (A easy)))
+       (barVP (barVP (barVPword to)
+                     (VP (V please)))
+              (barVPConj (Conj and)
+                         (barVP (barVPword to)
+                                (VP (V love)
+                                    (NP Mary)))))))
+failure
+(S (NP (NP the
+           kennel)
+       (R (NP+R+WH+PRO which)
+          (S/NP (S/NP (NP Mary)
+                      (VP/NP (V made)))
+                and
+                (S/NP (NP Fido)
+                      (VP/NP (V sleeps))))))
+   (VP has
+       been
+       stolen))
+(S (S (NP (N John))
+      (VP+FIN (V+FIN saw)
+              (NP (N (AP (A more))
+                     (N horses)))))
+   (SConj (Conj than)
+          (S (S (NP (N Bill))
+                (VP+FIN (V+FIN saw)
+                        (NP (N cows))))
+             (SConj (Conj or)
+                    (S (NP (N Pete))
+                       (VP (V (V talked)
+                              to)))))))
+(S (NP I)
+   (VP (V know)
+       (NP a
+           man)
+       (R (NP+WH+PRO who)
+          (S/NP (S/NP (NP (N Bill))
+                      (VP/NP (V saw)))
+                and
+                (VP+FIN (V+FIN liked)
+                        (NP Mary))))))
+(S (NP I)
+   (VP (V wonder)
+       (R (NP+WH+PRO who)
+          (S/NP (S/NP (NP (N Bill))
+                      (VP/NP (V saw)))
+                and
+                (VP+FIN (V+FIN liked)
+                        (NP Mary))))))
+failure
+(S (NP (N John))
+   (VP (V asked)
+       (R (NP+WH (NP+R+WH+PRO (NP+R+WH+PRO who)
+                              and
+                              (NP+R+WH+PRO what)))
+          (VP (V bought)))))
+failure
+failure
+failure
+failure
+(S (S (NP (N John))
+      (VP (V offered)))
+   (SConj (Conj and)
+          (S (NP Harry)
+             (VP (V gave)
+                 (NP (N Sally))
+                 (NP (Det a)
+                     (N Cadillac))))))
+failure
