@@ -9,7 +9,7 @@ def main():
 
 	file = sys.argv[1]
 	f = open(file,"r")
-	i = 0
+	i = 51
 	for s in f.readlines():
 		cf = CanvasFrame()
 		t = Tree.fromstring(s)
