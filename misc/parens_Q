@@ -1,0 +1,3 @@
+(Q (V+FIN+AUX is) (NP Kim) (AP (A stupid)))
+(Q (NP+WH who) (VP+FIN (V+FIN saw) (NP the man)))
+(Q (NP+WH (Det+WH which) (N man)) (VP+FIN (V+FIN drove) (NP the car)))

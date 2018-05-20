@@ -1,0 +1,15 @@
+# John hummed t , and Mary sang t , the same tune
+
+(S (S/NP (S/NP (NP (N John)) (VP/NP (V hummed) (NP/NP t ,))) and (S/NP (NP Mary) (VP/NP (V sang) (NP/NP t ,)))) (NP (Det the) (N (AP (A same)) (N tune))))
+
+# John hummed t , and Mary sang t , at equal volumes
+
+(S (NP (N John)) (S/NP (S/NP (VP/NP (V hummed) (NP/NP t ,))) and (S/NP (NP Mary) (VP/NP (V sang) (NP/NP t ,) (PP (P at) (NP (N (AP (A equal)) (N volumes))))))))
+
+# John gave Mary t , and Joan presented t to Fred , books which looked remarkably similar
+
+(S (S/NP (S/NP (NP (N John)) (VP/NP (V gave) (NP Mary) (PP/NP (NP/NP t)))) and (S/NP (NP (N John)) (VP/NP (V presented) (NP/NP t) (PP (P to) (NP (N Fred)))))) (NP (NP (N books)) (R (NP+R+WH+PRO which) (VP+FIN looked (AP (Adv remarkably) (A similar))))))
+
+# the Red Sox beat t , and the Giants were beaten by t , different teams
+
+(S (S (NP the Red Sox) (S/NP (VP/NP (V beat)))) (SConj (Conj and) (S (NP the Giants) (VP (V were (V+Passive beaten)) (PP (P by) (NP different teams))))))

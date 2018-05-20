@@ -1,0 +1,2 @@
+(ROOT (FRAG (NP (DT the) (NN man)) (SBAR (IN that) (S (NP (NNP chased) (NNP Fido)) (VP (VBD returned))))))
+(ROOT (S (NP (NP (DT the) (NN man)) (SBAR (WHNP (WP who)) (S (NP (PRP I)) (VP (VBP think))))) (VP (VBD chased) (SBAR (S (NP (NNP Fido)) (VP (VBD returned)))))))
